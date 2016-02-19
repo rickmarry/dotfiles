@@ -16,6 +16,7 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'Syntastic' "uber awesome syntax and errors highlighter
 Plugin 'altercation/vim-colors-solarized' "T-H-E colorscheme
 Plugin 'https://github.com/tpope/vim-fugitive' "So awesome, it should be illegal 
+Plugin 'airblade/vim-gitgutter' 
 "...All your other bundles...
 if iCanHazVundle == 0
     echo "Installing Vundles, please ignore key map error messages"
@@ -39,3 +40,17 @@ set clipboard=unnamed
 set tabstop=4
 set shiftwidth=4
 set expandtab
+set autoread
+
+" " swap files (.swp) in a common location
+" " // means use the file's full path
+set dir=~/.vim/_swap//
+
+" " backup files (~) in a common location if possible
+set backup
+set backupdir=~/.vim/_backup/,~/tmp,.
+
+" " turn on undo files, put them in a common location
+set undofile
+set undodir=~/.vim/_undo/
+
