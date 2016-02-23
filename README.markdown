@@ -32,3 +32,7 @@ git clone git://github.com/michaeljsmalley/dotfiles ~/dotfiles
 cd ~/dotfiles
 ./makesymlinks.sh
 ```
+
+To make tmux work:
+-----------------
+brew install reattach-to-user-namespace
