@@ -14,6 +14,7 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 "Add your bundles here
 Plugin 'Syntastic' "uber awesome syntax and errors highlighter
+Plugin 'wincent/command-t'
 Plugin 'scrooloose/nerdtree'
 Plugin 'altercation/vim-colors-solarized' "T-H-E colorscheme
 Plugin 'https://github.com/tpope/vim-fugitive' "So awesome, it should be illegal 
