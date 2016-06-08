@@ -19,6 +19,7 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'altercation/vim-colors-solarized' "T-H-E colorscheme
 Plugin 'https://github.com/tpope/vim-fugitive' "So awesome, it should be illegal 
 Plugin 'airblade/vim-gitgutter' 
+Plugin 'fatih/vim-go'
 "...All your other bundles...
 if iCanHazVundle == 0
     echo "Installing Vundles, please ignore key map error messages"
@@ -37,6 +38,7 @@ set background=dark
 colorscheme solarized
 
 set rnu
+set number
 set nobackup
 set clipboard=unnamed
 set tabstop=4
