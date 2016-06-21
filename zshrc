@@ -101,6 +101,7 @@ alias e_nginx='sudo nginx -s stop'
 #nginx devops-ui start/restart/stop
 alias s_nginx_new='sudo nginx -c /usr/local/etc/nginx/nginx-new-js-ui.conf'
 alias r_nginx_new='sudo nginx -c /usr/local/etc/nginx/nginx-new-js-ui.conf -s reload'
+alias clearall="clear && printf '\e[3J'"
 
 alias mac_mini_old_jenkins='ssh labuser@3.99.135.145'
 alias ip='ifconfig | grep "inet 3" | grep -vn 127.0.0.1 | cut -c9-21 | head -1 | grep -E -o "([0-9]{1,3}[\.]){3}[0-9]{1,3}" | tee >(pbcopy) >(xargs echo ">>> ip copied to clipbard: ")'

@@ -8,6 +8,7 @@ if !filereadable(vundle_readme)
     let iCanHazVundle=0
 endif
 set nocompatible              " be iMproved, required
+set showcmd
 filetype off                  " required
 set rtp+=~/.vim/bundle/vundle/
 call vundle#begin()
@@ -20,6 +21,7 @@ Plugin 'altercation/vim-colors-solarized' "T-H-E colorscheme
 Plugin 'https://github.com/tpope/vim-fugitive' "So awesome, it should be illegal 
 Plugin 'airblade/vim-gitgutter' 
 Plugin 'fatih/vim-go'
+Plugin 'Shougo/neocomplete'
 "...All your other bundles...
 if iCanHazVundle == 0
     echo "Installing Vundles, please ignore key map error messages"
@@ -58,3 +60,11 @@ set backupdir=~/.vim/_backup/,~/tmp,.
 set undofile
 set undodir=~/.vim/_undo/
 
+" go-vim stuff
+au FileType go nmap <leader>r <Plug>(go-run)
+au FileType go nmap <leader>b <Plug>(go-build)
+au FileType go nmap <leader>t <Plug>(go-test)
+au FileType go nmap <leader>c <Plug>(go-coverage)
+
+
+let g:neocomplete#enable_at_startup = 1
