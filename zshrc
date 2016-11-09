@@ -1,7 +1,7 @@
 . ~/.proxies.sh on
-. ~/.metastore-dev.sh
+. ~/devops-apps-local-run-env.sh
 
-export PATH=".:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+export PATH=".:~/dotfiles/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 export GOPATH=$HOME/workspace/go_projects
 export GROOVY_HOME=/usr/local/opt/groovy/libexec
 export PATH=$PATH:$GOPATH/bin:$GROOVY_HOME/bin
@@ -97,6 +97,9 @@ alias brewski='brew update && brew upgrade --all && brew upgrade brew-cask; brew
 alias s_nginx_old='sudo nginx -c /usr/local/etc/nginx/nginx-old-js-ui.conf'
 alias r_nginx_old='sudo nginx -c /usr/local/etc/nginx/nginx-old-js-ui.conf -s reload'
 alias e_nginx='sudo nginx -s stop'
+
+alias gws='cd /Users/221014669/workspace/go_projects/src/github.build.ge.com/predix-devops/'
+alias ws='cd /Users/221014669/workspace/'
 
 #nginx devops-ui start/restart/stop
 alias s_nginx_new='sudo nginx -c /usr/local/etc/nginx/nginx-new-js-ui.conf'
