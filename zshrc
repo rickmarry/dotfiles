@@ -7,7 +7,7 @@ export GROOVY_HOME=/usr/local/opt/groovy/libexec
 export PATH=$PATH:$GOPATH/bin:$GROOVY_HOME/bin
 export BF='15MB'
 # Path to your oh-my-zsh installation.
-export ZSH=/Users/221014669/.oh-my-zsh
+export ZSH=~/.oh-my-zsh
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
