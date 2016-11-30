@@ -7,6 +7,9 @@ if !filereadable(vundle_readme)
     silent !git clone https://github.com/VundleVim/Vundle.vim ~/.vim/bundle/vundle
     let iCanHazVundle=0
 endif
+
+"set directory=~/.vim/tmp
+
 set nocompatible              " be iMproved, required
 set showcmd
 filetype off                  " required
