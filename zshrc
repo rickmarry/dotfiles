@@ -2,7 +2,7 @@
 [ -f ~/devops-apps-local-run-env.sh ] && . ~/devops-apps-local-run-env.sh
 
 export PATH=".:~/dotfiles/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
-export GOPATH=$HOME/workspace/go_projects
+export GOPATH=$HOME/workspace/go
 export GROOVY_HOME=/usr/local/opt/groovy/libexec
 export PATH=$PATH:$GOPATH/bin:$GROOVY_HOME/bin
 export BF='15MB'
@@ -91,7 +91,7 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 #
 # run brewski to keep brew installs clean!
-alias brewski='brew update && brew upgrade --all && brew upgrade brew-cask; brew cleanup; brew cask cleanup; brew doctor'
+alias brewski='brew update && brew upgrade && brew upgrade brew-cask; brew cleanup; brew cask cleanup; brew doctor'
 
 #nginx old ui start/restart/stop
 alias s_nginx_old='sudo nginx -c /usr/local/etc/nginx/nginx-old-js-ui.conf'
@@ -140,3 +140,4 @@ alias rabbit_start="rabbitmq-server -detached"
 alias rabbit_stop="rabbitmqctl stop"
 
 DISABLE_AUTO_TITLE="true"
+eval "$(chef shell-init zsh)"
