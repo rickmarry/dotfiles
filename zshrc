@@ -141,3 +141,4 @@ alias rabbit_stop="rabbitmqctl stop"
 
 DISABLE_AUTO_TITLE="true"
 eval "$(chef shell-init zsh)"
+if [ -z $TMUX ]; then; tmux; fi
