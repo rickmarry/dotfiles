@@ -98,7 +98,7 @@ alias s_nginx_old='sudo nginx -c /usr/local/etc/nginx/nginx-old-js-ui.conf'
 alias r_nginx_old='sudo nginx -c /usr/local/etc/nginx/nginx-old-js-ui.conf -s reload'
 alias e_nginx='sudo nginx -s stop'
 
-alias gws='cd ~/workspace/go_projects/src/github.build.ge.com/predix-devops/'
+alias gws='cd ~/workspace/go/src/github.com/chef'
 alias ws='cd ~/workspace/'
 
 #nginx devops-ui start/restart/stop
