@@ -99,7 +99,9 @@ alias r_nginx_old='sudo nginx -c /usr/local/etc/nginx/nginx-old-js-ui.conf -s re
 alias e_nginx='sudo nginx -s stop'
 
 alias gws='cd ~/workspace/go/src/github.com/chef'
+alias gen='cd ~/workspace/go/src/github.com/chef/chef-compliance/examples/demo/generator'
 alias ws='cd ~/workspace/'
+alias "ij=open -a /Applications/IntelliJ\ IDEA.app"
 
 #nginx devops-ui start/restart/stop
 alias s_nginx_new='sudo nginx -c /usr/local/etc/nginx/nginx-new-js-ui.conf'
