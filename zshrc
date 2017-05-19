@@ -99,8 +99,8 @@ alias r_nginx_old='sudo nginx -c /usr/local/etc/nginx/nginx-old-js-ui.conf -s re
 alias e_nginx='sudo nginx -s stop'
 
 alias services='cd ~/workspace/go/src/github.com/chef/chef-compliance/services'
-alias gen='cd ~/workspace/go/src/github.com/chef/chef-compliance/examples/demo/generator'
-alias ws='cd ~/workspace/'
+alias gen='cd ~/workspace/github.com/chef/chef-compliance/examples/demo/generator'
+alias ws='cd ~/workspace/go/src/github.com'
 alias "ij=open -a /Applications/IntelliJ\ IDEA.app"
 
 #nginx devops-ui start/restart/stop
@@ -125,7 +125,7 @@ alias pon='. ~./.proxies.sh on'
 bindkey -v
 
 #emacs
-alias emacs="emacs -nw"
+#alias emacs="emacs -nw"
 # ctrl-r starts searching history backward
 bindkey '^r' history-incremental-search-backward
 
