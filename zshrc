@@ -100,7 +100,7 @@ alias e_nginx='sudo nginx -s stop'
 
 alias services='cd ~/workspace/go/src/github.com/chef/chef-compliance/services'
 alias gen='cd ~/workspace/github.com/chef/chef-compliance/examples/demo/generator'
-alias ws='cd ~/workspace/go/src/github.com'
+alias ws='cd ~/workspace/go/src/github.com/chef'
 alias "ij=open -a /Applications/IntelliJ\ IDEA.app"
 
 #nginx devops-ui start/restart/stop
