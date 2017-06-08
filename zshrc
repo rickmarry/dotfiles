@@ -145,3 +145,7 @@ DISABLE_AUTO_TITLE="true"
 eval "$(chef shell-init zsh)"
 if [ -z $TMUX ]; then; tmux; fi
 eval $(thefuck --alias)
+
+export X_DEBUG_CHEF_DELIVERY_USER=rick
+export X_DEBUG_CHEF_DELIVERY_TOKEN=P0OqQzoCSArRI4aqNl8ovG6rkr2XRHlWyLMDblA5288
+eval "$(direnv hook zsh)"

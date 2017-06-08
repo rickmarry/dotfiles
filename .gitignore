@@ -3,3 +3,4 @@ vim/
 chef/
 private
 *~
+tmux_resurrect_*
