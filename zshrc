@@ -100,7 +100,8 @@ alias e_nginx='sudo nginx -s stop'
 
 alias services='cd ~/workspace/go/src/github.com/chef/chef-compliance/services'
 alias gen='cd ~/workspace/github.com/chef/chef-compliance/examples/demo/generator'
-alias ws='cd ~/workspace/go/src/github.com/chef'
+alias ws='cd ~/workspace'
+alias gws='cd ~/workspace/go/src/github.com/chef'
 alias "ij=open -a /Applications/IntelliJ\ IDEA.app"
 
 #nginx devops-ui start/restart/stop
@@ -130,7 +131,6 @@ bindkey -v
 bindkey '^r' history-incremental-search-backward
 
 
-
 # Zsh, ~/.zshrc
 #eval "$(grunt --completion=zsh)"
 
@@ -150,3 +150,6 @@ export X_DEBUG_CHEF_DELIVERY_USER=rick
 export X_DEBUG_CHEF_DELIVERY_TOKEN=P0OqQzoCSArRI4aqNl8ovG6rkr2XRHlWyLMDblA5288
 eval "$(direnv hook zsh)"
 alias clear="clear && printf '\e[3J'"
+
+export NVM_DIR="$HOME/.nvm"
+. "/usr/local/opt/nvm/nvm.sh"

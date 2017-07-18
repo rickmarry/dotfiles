@@ -23,7 +23,7 @@ Plug 'codegram/vim-codereview'
 Plug 'junegunn/vim-peekaboo'
 
 " deal with swap files
-Plug 'gioele/vim-autoswap'
+"Plug 'gioele/vim-autoswap'
 
 " plugin from http://vim-scripts.org/vim/scripts.html
 " Plug 'L9'
@@ -299,6 +299,8 @@ let g:NERDTreeWinSize = 50
 set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*.pyc,*.db,*.sqlite
 nnoremap <silent> <F2> :NERDTreeFind<CR>
 noremap <F3> :NERDTreeToggle<CR>
+
+nnoremap c :bp\|bd #<CR>
 
 "" set shortcut for open Nerdtree
 map <C-n> :NERDTreeToggle<CR>
