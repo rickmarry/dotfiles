@@ -119,6 +119,8 @@ alias meta-swag='go-swaggerLite -apiPackage="github.build.ge.com/predix-devops/m
 alias poff='. ~./.proxies.sh off'
 alias pon='. ~./.proxies.sh on'
 
+alias govet-with-subdirs-skip-vendor-dir="go vet ./... 2>&1 | grep -v ^vendor | grep -v '^exit status 1$'"
+alias golint-with-subdirs-skip-vendor-dir="golint ./... 2>&1 | grep -v ^vendor | grep -v '^exit status 1$'"
 
 [ -f ~/.geconfigs/.cfenvs ] && . ~/.geconfigs/.cfenvs
 
