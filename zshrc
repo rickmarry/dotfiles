@@ -103,6 +103,7 @@ alias gen='cd ~/workspace/github.com/chef/chef-compliance/examples/demo/generato
 alias ws='cd ~/workspace'
 alias gws='cd ~/workspace/go/src/github.com/chef'
 alias "ij=open -a /Applications/IntelliJ\ IDEA.app"
+alias jq='python -m json.tool'
 
 #nginx devops-ui start/restart/stop
 alias s_nginx_new='sudo nginx -c /usr/local/etc/nginx/nginx-new-js-ui.conf'

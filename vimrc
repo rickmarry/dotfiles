@@ -49,12 +49,10 @@ Plug 'othree/javascript-libraries-syntax.vim'
 
 Plug 'markbiek/phpLint.vim'
 
-
 """ tmux
 Plug 'christoomey/vim-tmux-navigator'
 Plug 'benmills/vimux'
 Plug 'benmills/vimux-golang'
-
 
 """ tpope
 Plug 'tpope/vim-surround'          " Operate on surrounding 
@@ -72,10 +70,10 @@ Plug 'ap/vim-buftabline'
 Plug 'dracula/vim'
 Plug 'freeo/vim-kalisi'
 Plug 'altercation/vim-colors-solarized'
+Plug 'vim-airline/vim-airline-themes'
 
 """ OMG Scala
 Plug 'derekwyatt/vim-scala'
-
 
 """ Completion
 if !has('nvim')
@@ -92,20 +90,21 @@ endif
 " All of your Plugs must be added before the following line
 call plug#end()
 
-
-
 filetype plugin indent on    " required
 
 set t_Co=256 " Ignored by nvim
 
  " in case t_Co alone doesn't work, add this as well:
- let &t_AB="\e[48;5;%dm"
- let &t_AF="\e[38;5;%dm"
+let &t_AB="\e[48;5;%dm"
+let &t_AF="\e[38;5;%dm"
 
 "colorscheme solarized
 "colorscheme kalisi
 colorscheme dracula
 set background=dark
+
+"let g:airline_theme='solarized'
+"let g:airline_solarized_bg='dark'
 
 set whichwrap+=<,>,h,l,[,]
 set autochdir
@@ -117,8 +116,6 @@ set showtabline=2 " Always display the tabline, even if there is only one tab
 set encoding=utf-8
 
 syntax on
-
-
 
 if !has('nvim')
 	set term=xterm-256color
@@ -144,7 +141,6 @@ set termencoding=utf-8
 "set guifont=Source\ Code\ Pro\ ExtraLight:h18
 set guifont=Ubuntu\ Mono\ derivative\ Powerline:h18
 "set completeopt-=preview
-
 
 if !has('nvim')
 	" old completion stuff
@@ -181,8 +177,6 @@ nnoremap <silent> <leader>tt :TagbarToggle<CR>
 "set clipboard^=unnamed
 set clipboard+=unnamedplus
 
-
-
 let g:used_javascript_libs = 'angularjs,angularui'
 
 " expert mode
@@ -207,10 +201,8 @@ if has('persistent_undo')
     set undofile
 endif
 
-
 " set listchars is useful in combination with :set list (showing whitespace chars)
 :set listchars=eol:¬,tab:>·,trail:~,extends:>,precedes:<,space:␣
-
 
 " Syntax for js etc
 autocmd FileType javascript let b:syntastic_checkers = findfile('.eslintrc', '.;') != '' ? ['eslint'] : ['standard']
@@ -222,7 +214,6 @@ autocmd FileType javascript setlocal shiftwidth=2 tabstop=2 expandtab
 autocmd FileType html setlocal shiftwidth=2 tabstop=2 expandtab
 "autocmd FileType yaml setlocal shiftwidth=2 tabstop=2
 "autocmd FileType ruby setlocal shiftwidth=2 tabstop=2
-
 
 " Status stuff
 "set statusline=%<%f\ %h%m%r%{fugitive#statusline()}%=%-14.(%l,%c%V%)\ %P
@@ -242,8 +233,7 @@ set backspace=indent,eol,start
 " Leader
 nnoremap <Leader>o :CtrlP<CR>
 
-let mapleader=","
-
+"let mapleader=","
 
 " vim-go
 augroup vg
@@ -267,11 +257,9 @@ au FileType go nmap <Leader>gp :GoPlay<CR>
 au FileType go nmap <Leader>g' :GoDocBrowser<CR>
 au FileType go nmap <Leader>g/ :GoInfo<CR>
 au FileType go nmap <Leader>gb :GoToggleBreakpoint<CR>
-au FileType go nmap <Leader>gd :GoDebug<CR>
+au FileType go nmap <Leader>gdb :GoDebug<CR>
 au FileType go nmap <Leader>ge :Refactor extract<CR>
 augroup END
-
-
 
 " jump to next/prev vim-go error:
 " nnoremap <C-j> :cn<CR>
@@ -287,7 +275,6 @@ if filereadable(expand("~/.vimrc.local"))
   source ~/.vimrc.local
 endif
 
-
 "" NERDTree configuration
 let g:NERDTreeChDirMode=2
 let g:NERDTreeIgnore=['\.rbc$', '\~$', '\.pyc$', '\.db$', '\.sqlite$', '__pycache__']
@@ -296,11 +283,14 @@ let g:NERDTreeShowBookmarks=1
 let g:nerdtree_tabs_focus_on_files=1
 let g:NERDTreeMapOpenInTabSilent = '<RightMouse>'
 let g:NERDTreeWinSize = 50
+
 set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*.pyc,*.db,*.sqlite
 nnoremap <silent> <F2> :NERDTreeFind<CR>
 noremap <F3> :NERDTreeToggle<CR>
 
-nnoremap c :bp\|bd #<CR>
+map <leader>q :bp<bar>sp<bar>bn<bar>bd<CR>.
+
+"nnoremap c :bp\|bd #<CR>
 
 "" set shortcut for open Nerdtree
 map <C-n> :NERDTreeToggle<CR>
