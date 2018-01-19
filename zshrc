@@ -3,7 +3,6 @@
 
 export PATH=".:~/dotfiles/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 export GOPATH=$HOME/workspace/go
-export GROOVY_HOME=/usr/local/opt/groovy/libexec
 export PATH=$PATH:$GOPATH/bin:$GROOVY_HOME/bin
 export BF='15MB'
 # Path to your oh-my-zsh installation.
@@ -57,7 +56,7 @@ ZSH_THEME="robbyrussell"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git mvn spring cf brew)
+plugins=(git mvn spring brew knife)
 
 # User configuration
 
@@ -105,23 +104,17 @@ alias gws='cd ~/workspace/go/src/github.com/chef'
 alias "ij=open -a /Applications/IntelliJ\ IDEA.app"
 alias jq='python -m json.tool'
 
-#nginx devops-ui start/restart/stop
-alias s_nginx_new='sudo nginx -c /usr/local/etc/nginx/nginx-new-js-ui.conf'
-alias r_nginx_new='sudo nginx -c /usr/local/etc/nginx/nginx-new-js-ui.conf -s reload'
 alias clearall="clear && printf '\e[3J'"
 
 alias ip='ifconfig | grep "inet 3" | grep -vn 127.0.0.1 | cut -c9-21 | head -1 | grep -E -o "([0-9]{1,3}[\.]){3}[0-9]{1,3}" | tee >(pbcopy) >(xargs echo ">>> ip copied to clipbard: ")'
 alias sshKeyToClipboard='pbcopy < ~/.ssh/id_rsa.pub'
-# get oaout token for cf
-alias gt='export TOKEN=$(cf oauth-token | sed "s/Getting OAuth token...//" | sed "s/OK//" | sed "s/bearer//" | tr -d "[[:space:]]") && echo $TOKEN | tee >(pbcopy)'
-alias z=". ~/.zshrc && echo 'reloaded .zshrc'"
-alias meta-swag='go-swaggerLite -apiPackage="github.build.ge.com/predix-devops/metastore" -mainApiFile="github.build.ge.com/predix-devops/metastore/main.go" -basePath="http://metastore-rc.grc-apps.svc.ice.ge.com"'
 
-alias poff='. ~./.proxies.sh off'
-alias pon='. ~./.proxies.sh on'
+alias z=". ~/.zshrc && echo 'reloaded .zshrc'"
 
 alias govet-with-subdirs-skip-vendor-dir="go vet ./... 2>&1 | grep -v ^vendor | grep -v '^exit status 1$'"
 alias golint-with-subdirs-skip-vendor-dir="golint ./... 2>&1 | grep -v ^vendor | grep -v '^exit status 1$'"
+
+alias vi='nvim'
 
 [ -f ~/.geconfigs/.cfenvs ] && . ~/.geconfigs/.cfenvs
 
@@ -133,26 +126,12 @@ bindkey -v
 # ctrl-r starts searching history backward
 bindkey '^r' history-incremental-search-backward
 
-
-# Zsh, ~/.zshrc
-#eval "$(grunt --completion=zsh)"
-
-alias postgres_start="pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start"
-alias postgres_stop="pg_ctl -D /usr/local/var/postgres stop -s -m fast"
-
-# rabbit
-alias rabbit_start="rabbitmq-server -detached"
-alias rabbit_stop="rabbitmqctl stop"
-
 DISABLE_AUTO_TITLE="true"
 eval "$(chef shell-init zsh)"
-if [ -z $TMUX ]; then; tmux; fi
-eval $(thefuck --alias)
 
 export X_DEBUG_CHEF_DELIVERY_USER=rick
 export X_DEBUG_CHEF_DELIVERY_TOKEN=P0OqQzoCSArRI4aqNl8ovG6rkr2XRHlWyLMDblA5288
 eval "$(direnv hook zsh)"
-alias clear="clear && printf '\e[3J'"
 
 export NVM_DIR="$HOME/.nvm"
 . "/usr/local/opt/nvm/nvm.sh"
