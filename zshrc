@@ -4,6 +4,7 @@
 export PATH=".:~/dotfiles/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 export GOPATH=$HOME/workspace/go
 export PATH=$PATH:$GOPATH/bin:$GROOVY_HOME/bin
+export PATH="$HOME/.rbenv/bin:$PATH"
 export BF='15MB'
 # Path to your oh-my-zsh installation.
 export ZSH=~/.oh-my-zsh
@@ -140,4 +141,4 @@ export X_DEBUG_CHEF_DELIVERY_TOKEN=P0OqQzoCSArRI4aqNl8ovG6rkr2XRHlWyLMDblA5288
 if type direnv > /dev/null; then
   eval "$(direnv hook zsh)"
 fi
-
+eval "$(rbenv init -)"
