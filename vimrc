@@ -71,6 +71,8 @@ Plug 'dracula/vim'
 Plug 'freeo/vim-kalisi'
 Plug 'altercation/vim-colors-solarized'
 Plug 'vim-airline/vim-airline-themes'
+Plug 'rakr/vim-one'
+Plug 'Yggdroot/duoduo'
 
 """ OMG Scala
 Plug 'derekwyatt/vim-scala'
@@ -100,10 +102,15 @@ let &t_AF="\e[38;5;%dm"
 
 "colorscheme solarized
 "colorscheme kalisi
-colorscheme dracula
+"color dracula
+"
+
+colorscheme one
+
 set background=dark
 
-"let g:airline_theme='solarized'
+let g:airline_theme='one'
+
 "let g:airline_solarized_bg='dark'
 
 set whichwrap+=<,>,h,l,[,]
