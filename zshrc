@@ -127,11 +127,17 @@ bindkey -v
 bindkey '^r' history-incremental-search-backward
 
 DISABLE_AUTO_TITLE="true"
-eval "$(chef shell-init zsh)"
+
+# if chef exe exists use it with zsh
+if type chef > /dev/null; then
+  eval "$(chef shell-init zsh)"
+fi
 
 export X_DEBUG_CHEF_DELIVERY_USER=rick
 export X_DEBUG_CHEF_DELIVERY_TOKEN=P0OqQzoCSArRI4aqNl8ovG6rkr2XRHlWyLMDblA5288
-eval "$(direnv hook zsh)"
 
-export NVM_DIR="$HOME/.nvm"
-. "/usr/local/opt/nvm/nvm.sh"
+# if direnv exists hook it up to zsh
+if type direnv > /dev/null; then
+  eval "$(direnv hook zsh)"
+fi
+
