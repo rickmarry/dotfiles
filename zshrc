@@ -117,8 +117,6 @@ alias golint-with-subdirs-skip-vendor-dir="golint ./... 2>&1 | grep -v ^vendor |
 
 alias vi='nvim'
 
-[ -f ~/.geconfigs/.cfenvs ] && . ~/.geconfigs/.cfenvs
-
 #vim bindings
 bindkey -v
 
@@ -133,9 +131,6 @@ DISABLE_AUTO_TITLE="true"
 if type chef > /dev/null; then
   eval "$(chef shell-init zsh)"
 fi
-
-export X_DEBUG_CHEF_DELIVERY_USER=rick
-export X_DEBUG_CHEF_DELIVERY_TOKEN=P0OqQzoCSArRI4aqNl8ovG6rkr2XRHlWyLMDblA5288
 
 # if direnv exists hook it up to zsh
 if type direnv > /dev/null; then
