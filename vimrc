@@ -123,6 +123,7 @@ set showtabline=2 " Always display the tabline, even if there is only one tab
 set encoding=utf-8
 
 syntax on
+set fdm=syntax
 
 if !has('nvim')
 	set term=xterm-256color
@@ -175,7 +176,7 @@ let g:go_highlight_operators = 1
 let g:go_highlight_build_constraints = 1
 let g:go_term_enabled = 1
 
-set rnu            
+"set rnu            
 set number
 set hlsearch
 

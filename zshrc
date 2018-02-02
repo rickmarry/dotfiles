@@ -1,4 +1,5 @@
 [ -f ~/proxies.sh ] && . ~/.proxies.sh on
+[ -f ~/.ghtoken.sh ] && . ~/.ghtoken.sh
 [ -f ~/devops-apps-local-run-env.sh ] && . ~/devops-apps-local-run-env.sh
 
 export PATH=".:~/dotfiles/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
@@ -126,6 +127,9 @@ bindkey -v
 bindkey '^r' history-incremental-search-backward
 
 DISABLE_AUTO_TITLE="true"
+
+export NVM_DIR="$HOME/.nvm"
+  . "/usr/local/opt/nvm/nvm.sh"
 
 # if chef exe exists use it with zsh
 if type chef > /dev/null; then
