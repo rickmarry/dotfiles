@@ -1,8 +1,14 @@
 [ -f ~/proxies.sh ] && . ~/.proxies.sh on
+[ -f ~/aws-cred.sh ] && . ~/aws-cred.sh
 [ -f ~/.ghtoken.sh ] && . ~/.ghtoken.sh
 [ -f ~/devops-apps-local-run-env.sh ] && . ~/devops-apps-local-run-env.sh
 
-export PATH=".:~/dotfiles/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+#export GEM_HOME=$HOME/.gem
+#export GEM_PATH=$HOME/.gem
+
+export CHEFY="/opt/chefdk/bin:/Users/rick/.chefdk/gem/ruby/2.3.0/bin:/opt/chefdk/embedded/bin"
+#export RUBY_PATH="/usr/local/lib/ruby/gems/2.3.0/bin"
+export PATH=".:$HOME/.gem/bin:~/dotfiles/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 export GOPATH=$HOME/workspace/go
 export PATH=$PATH:$GOPATH/bin:$GROOVY_HOME/bin
 export PATH="$HOME/.rbenv/bin:$PATH"
@@ -63,7 +69,6 @@ plugins=(git mvn spring brew knife)
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
-
 source $ZSH/oh-my-zsh.sh
 
 # You may need to manually set your language environment
@@ -104,7 +109,6 @@ alias gen='cd ~/workspace/github.com/chef/chef-compliance/examples/demo/generato
 alias ws='cd ~/workspace'
 alias gws='cd ~/workspace/go/src/github.com/chef'
 alias "ij=open -a /Applications/IntelliJ\ IDEA.app"
-alias jq='python -m json.tool'
 
 alias clearall="clear && printf '\e[3J'"
 
@@ -132,12 +136,13 @@ export NVM_DIR="$HOME/.nvm"
   . "/usr/local/opt/nvm/nvm.sh"
 
 # if chef exe exists use it with zsh
-if type chef > /dev/null; then
-  eval "$(chef shell-init zsh)"
-fi
+# if type chef > /dev/null; then
+#   eval "$(chef shell-init zsh)"
+# fi
 
 # if direnv exists hook it up to zsh
 if type direnv > /dev/null; then
   eval "$(direnv hook zsh)"
 fi
+
 eval "$(rbenv init -)"
