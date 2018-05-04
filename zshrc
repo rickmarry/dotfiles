@@ -10,7 +10,7 @@ export CHEFY="/opt/chefdk/bin:/Users/rick/.chefdk/gem/ruby/2.3.0/bin:/opt/chefdk
 #export RUBY_PATH="/usr/local/lib/ruby/gems/2.3.0/bin"
 export PATH=".:$HOME/.gem/bin:~/dotfiles/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 export GOPATH=$HOME/workspace/go
-export PATH=$PATH:$GOPATH/bin:$GROOVY_HOME/bin
+export PATH=$PATH::$GOPATH/bin:$GROOVY_HOME/bin
 export PATH="$HOME/.rbenv/bin:$PATH"
 export BF='15MB'
 # Path to your oh-my-zsh installation.
@@ -64,7 +64,7 @@ ZSH_THEME="robbyrussell"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git mvn spring brew knife)
+plugins=(docker vagrant tmux git mvn spring brew knife)
 
 # User configuration
 
@@ -121,6 +121,12 @@ alias govet-with-subdirs-skip-vendor-dir="go vet ./... 2>&1 | grep -v ^vendor | 
 alias golint-with-subdirs-skip-vendor-dir="golint ./... 2>&1 | grep -v ^vendor | grep -v '^exit status 1$'"
 
 alias vi='nvim'
+alias es='elasticsearch'
+alias es-test='ES_PATH_CONF=/usr/local/etc/elasticsearch-small elasticsearch'
+alias es-a1-customer-data='ES_PATH_CONF=/usr/local/etc/elasticsearch-customer-a1 elasticsearch'
+alias es-large='ES_PATH_CONF=/usr/local/etc/elasticsearch-large elasticsearch'
+alias es-large-trimmed='ES_PATH_CONF=/usr/local/etc/elasticsearch-large-trimmed elasticsearch'
+alias es-large-mark-dlatest-ts='ES_PATH_CONF=/usr/local/etc/mark-dlatest-ts elasticsearch'
 
 #vim bindings
 bindkey -v
