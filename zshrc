@@ -8,7 +8,7 @@
 
 export CHEFY="/opt/chefdk/bin:/Users/rick/.chefdk/gem/ruby/2.3.0/bin:/opt/chefdk/embedded/bin"
 #export RUBY_PATH="/usr/local/lib/ruby/gems/2.3.0/bin"
-export PATH=".:$HOME/.gem/bin:~/dotfiles/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+export PATH="$PATH:.:$HOME/.gem/bin:~/dotfiles/bin:/usr/local/go/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 export GOPATH=$HOME/workspace/go
 export PATH=$PATH::$GOPATH/bin:$GROOVY_HOME/bin
 export PATH="$HOME/.rbenv/bin:$PATH"
@@ -151,4 +151,7 @@ if type direnv > /dev/null; then
   eval "$(direnv hook zsh)"
 fi
 
-eval "$(rbenv init -)"
+#eval "$(rbenv init -)"
+
+# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
+export PATH="$PATH:$HOME/.rvm/bin"
