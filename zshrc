@@ -6,12 +6,10 @@
 #export GEM_HOME=$HOME/.gem
 #export GEM_PATH=$HOME/.gem
 
-export CHEFY="/opt/chefdk/bin:/Users/rick/.chefdk/gem/ruby/2.3.0/bin:/opt/chefdk/embedded/bin"
-#export RUBY_PATH="/usr/local/lib/ruby/gems/2.3.0/bin"
-export PATH="$PATH:.:$HOME/.gem/bin:~/dotfiles/bin:/usr/local/go/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+set -o vi
+export PATH="$PATH:.:~/dotfiles/bin:/usr/local/go/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 export GOPATH=$HOME/workspace/go
 export PATH=$PATH::$GOPATH/bin:$GROOVY_HOME/bin
-export PATH="$HOME/.rbenv/bin:$PATH"
 export BF='15MB'
 # Path to your oh-my-zsh installation.
 export ZSH=~/.oh-my-zsh
@@ -73,6 +71,8 @@ source $ZSH/oh-my-zsh.sh
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
+export VISUAL=nvim
+export EDITOR="$VISUAL"
 
 # Preferred editor for local and remote sessions
 # if [[ -n $SSH_CONNECTION ]]; then
@@ -96,6 +96,7 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 #
+
 # run brewski to keep brew installs clean!
 alias brewski='brew update && brew upgrade && brew upgrade brew-cask; brew cleanup; brew cask cleanup; brew doctor'
 
@@ -104,15 +105,18 @@ alias s_nginx_old='sudo nginx -c /usr/local/etc/nginx/nginx-old-js-ui.conf'
 alias r_nginx_old='sudo nginx -c /usr/local/etc/nginx/nginx-old-js-ui.conf -s reload'
 alias e_nginx='sudo nginx -s stop'
 
-alias services='cd ~/workspace/go/src/github.com/chef/chef-compliance/services'
-alias gen='cd ~/workspace/github.com/chef/chef-compliance/examples/demo/generator'
 alias ws='cd ~/workspace'
 alias gws='cd ~/workspace/go/src/github.com/chef'
+alias a='cd ~/workspace/go/src/github.com/chef/a2'
+alias c='cd ~/workspace/go/src/github.com/chef/a2/components/compliance-service'
 alias "ij=open -a /Applications/IntelliJ\ IDEA.app"
 
 alias clearall="clear && printf '\e[3J'"
 
-alias ip='ifconfig | grep "inet 3" | grep -vn 127.0.0.1 | cut -c9-21 | head -1 | grep -E -o "([0-9]{1,3}[\.]){3}[0-9]{1,3}" | tee >(pbcopy) >(xargs echo ">>> ip copied to clipbard: ")'
+#alias ip='ifconfig | grep "inet 3" | grep -vn 127.0.0.1 | cut -c9-21 | head -1 | grep -E -o "([0-9]{1,3}[\.]){3}[0-9]{1,3}" | tee >(pbcopy) >(xargs echo ">>> ip copied to clipbard: ")'
+#
+alias pbcopy="xclip -sel clip"
+
 alias sshKeyToClipboard='pbcopy < ~/.ssh/id_rsa.pub'
 
 alias z=". ~/.zshrc && echo 'reloaded .zshrc'"
@@ -120,7 +124,9 @@ alias z=". ~/.zshrc && echo 'reloaded .zshrc'"
 alias govet-with-subdirs-skip-vendor-dir="go vet ./... 2>&1 | grep -v ^vendor | grep -v '^exit status 1$'"
 alias golint-with-subdirs-skip-vendor-dir="golint ./... 2>&1 | grep -v ^vendor | grep -v '^exit status 1$'"
 
+alias vimdiff='nvim -d'
 alias vi='nvim'
+alias vim='nvim'
 alias es='elasticsearch'
 alias es-test='ES_PATH_CONF=/usr/local/etc/elasticsearch-small elasticsearch'
 alias es-a1-customer-data='ES_PATH_CONF=/usr/local/etc/elasticsearch-customer-a1 elasticsearch'
@@ -139,7 +145,7 @@ bindkey '^r' history-incremental-search-backward
 DISABLE_AUTO_TITLE="true"
 
 export NVM_DIR="$HOME/.nvm"
-  . "/usr/local/opt/nvm/nvm.sh"
+  . "/usr/share/nvm/nvm.sh"
 
 # if chef exe exists use it with zsh
 # if type chef > /dev/null; then
@@ -151,7 +157,6 @@ if type direnv > /dev/null; then
   eval "$(direnv hook zsh)"
 fi
 
-#eval "$(rbenv init -)"
+. $HOME/.asdf/asdf.sh
 
-# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
-export PATH="$PATH:$HOME/.rvm/bin"
+. $HOME/.asdf/completions/asdf.bash

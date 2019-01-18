@@ -37,6 +37,7 @@ Plug 'rstacruz/sparkup', {'rtp': 'vim/'}
 Plug 'fatih/vim-go'
 Plug 'godoctor/godoctor.vim'
 Plug 'nsf/gocode', {'rtp': 'nvim/'}
+Plug 'sebdah/vim-delve'
 
 """ related to go but not specific
 Plug 'FooSoft/vim-argwrap' " Wrap a paremeter list accross multiple lines
@@ -123,7 +124,7 @@ set showtabline=2 " Always display the tabline, even if there is only one tab
 set encoding=utf-8
 
 syntax on
-set fdm=syntax
+"set fdm=syntax
 
 if !has('nvim')
 	set term=xterm-256color
