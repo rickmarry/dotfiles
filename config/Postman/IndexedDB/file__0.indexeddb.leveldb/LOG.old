@@ -1,0 +1,18 @@
+2019/01/22-12:07:03.617 25153 Reusing MANIFEST /home/rickm/dotfiles/config/Postman/IndexedDB/file__0.indexeddb.leveldb/MANIFEST-000001
+2019/01/22-12:07:54.044 25153 Current memtable full; waiting...
+2019/01/22-12:07:54.044 25679 Level-0 table #5: started
+2019/01/22-12:07:54.054 25679 Level-0 table #5: 7927 bytes OK
+2019/01/22-12:07:54.069 25679 Delete type=0 #3
+2019/01/22-12:07:54.070 25679 Level-0 table #7: started
+2019/01/22-12:07:54.070 25679 Level-0 table #7: 0 bytes OK
+2019/01/22-12:07:54.079 25679 Delete type=0 #4
+2019/01/22-12:07:54.079 25679 Manual compaction at level-0 from '\x00\x02\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x03\x00\x00\x00' @ 0 : 0; will stop at (end)
+2019/01/22-12:07:56.861 25679 Level-0 table #9: started
+2019/01/22-12:07:56.889 25679 Level-0 table #9: 1062237 bytes OK
+2019/01/22-12:07:56.912 25679 Delete type=0 #6
+2019/01/22-12:07:57.337 25679 Compacting 1@1 + 1@2 files
+2019/01/22-12:07:57.363 25679 Generated table #10@1: 598 keys, 1062705 bytes
+2019/01/22-12:07:57.363 25679 Compacted 1@1 + 1@2 files => 1062705 bytes
+2019/01/22-12:07:57.387 25679 compacted to: files[ 0 0 1 0 0 0 0 ]
+2019/01/22-12:07:57.387 25679 Delete type=2 #9
+2019/01/22-12:07:57.387 25679 Delete type=2 #5

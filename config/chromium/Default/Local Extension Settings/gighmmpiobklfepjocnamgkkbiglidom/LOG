@@ -1,0 +1,20 @@
+2019/01/22-16:46:49.123 1229 Reusing MANIFEST /home/rickm/.config/chromium/Default/Local Extension Settings/gighmmpiobklfepjocnamgkkbiglidom/MANIFEST-000001
+2019/01/22-16:46:49.123 1229 Recovering log #25
+2019/01/22-16:46:49.123 1229 Reusing old log /home/rickm/.config/chromium/Default/Local Extension Settings/gighmmpiobklfepjocnamgkkbiglidom/000025.log 
+2019/01/22-16:47:50.188 1773 Level-0 table #29: started
+2019/01/22-16:47:50.227 1773 Level-0 table #29: 3835144 bytes OK
+2019/01/22-16:47:50.234 1773 Delete type=0 #25
+2019/01/22-16:47:50.236 1773 Compacting 4@0 + 2@1 files
+2019/01/22-16:47:50.307 1773 Generated table #30@0: 1 keys, 3834884 bytes
+2019/01/22-16:47:50.315 1773 Generated table #31@0: 4 keys, 395 bytes
+2019/01/22-16:47:50.315 1773 Compacted 4@0 + 2@1 files => 3835279 bytes
+2019/01/22-16:47:50.322 1773 compacted to: files[ 0 2 1 0 0 0 0 ]
+2019/01/22-16:47:50.322 1773 Delete type=2 #24
+2019/01/22-16:47:50.323 1773 Delete type=2 #29
+2019/01/22-16:47:50.323 1773 Delete type=2 #18
+2019/01/22-16:47:50.323 1773 Delete type=2 #21
+2019/01/22-16:47:50.324 1773 Delete type=2 #19
+2019/01/22-16:47:50.324 1773 Delete type=2 #26
+2019/01/22-16:47:51.499 1773 Level-0 table #33: started
+2019/01/22-16:47:51.539 1773 Level-0 table #33: 3835125 bytes OK
+2019/01/22-16:47:51.546 1773 Delete type=0 #28
