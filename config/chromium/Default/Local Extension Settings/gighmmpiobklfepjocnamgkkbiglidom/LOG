@@ -1,20 +1,69 @@
-2019/01/22-16:46:49.123 1229 Reusing MANIFEST /home/rickm/.config/chromium/Default/Local Extension Settings/gighmmpiobklfepjocnamgkkbiglidom/MANIFEST-000001
-2019/01/22-16:46:49.123 1229 Recovering log #25
-2019/01/22-16:46:49.123 1229 Reusing old log /home/rickm/.config/chromium/Default/Local Extension Settings/gighmmpiobklfepjocnamgkkbiglidom/000025.log 
-2019/01/22-16:47:50.188 1773 Level-0 table #29: started
-2019/01/22-16:47:50.227 1773 Level-0 table #29: 3835144 bytes OK
-2019/01/22-16:47:50.234 1773 Delete type=0 #25
-2019/01/22-16:47:50.236 1773 Compacting 4@0 + 2@1 files
-2019/01/22-16:47:50.307 1773 Generated table #30@0: 1 keys, 3834884 bytes
-2019/01/22-16:47:50.315 1773 Generated table #31@0: 4 keys, 395 bytes
-2019/01/22-16:47:50.315 1773 Compacted 4@0 + 2@1 files => 3835279 bytes
-2019/01/22-16:47:50.322 1773 compacted to: files[ 0 2 1 0 0 0 0 ]
-2019/01/22-16:47:50.322 1773 Delete type=2 #24
-2019/01/22-16:47:50.323 1773 Delete type=2 #29
-2019/01/22-16:47:50.323 1773 Delete type=2 #18
-2019/01/22-16:47:50.323 1773 Delete type=2 #21
-2019/01/22-16:47:50.324 1773 Delete type=2 #19
-2019/01/22-16:47:50.324 1773 Delete type=2 #26
-2019/01/22-16:47:51.499 1773 Level-0 table #33: started
-2019/01/22-16:47:51.539 1773 Level-0 table #33: 3835125 bytes OK
-2019/01/22-16:47:51.546 1773 Delete type=0 #28
+2019/01/22-16:59:01.664 1607 Reusing MANIFEST /home/rickm/.config/chromium/Default/Local Extension Settings/gighmmpiobklfepjocnamgkkbiglidom/MANIFEST-000001
+2019/01/22-16:59:01.664 1607 Recovering log #32
+2019/01/22-16:59:01.665 1607 Reusing old log /home/rickm/.config/chromium/Default/Local Extension Settings/gighmmpiobklfepjocnamgkkbiglidom/000032.log 
+2019/01/22-17:00:02.753 2253 Level-0 table #36: started
+2019/01/22-17:00:02.801 2253 Level-0 table #36: 3835052 bytes OK
+2019/01/22-17:00:02.808 2253 Delete type=0 #32
+2019/01/22-17:00:17.068 2253 Level-0 table #38: started
+2019/01/22-17:00:17.112 2253 Level-0 table #38: 3835119 bytes OK
+2019/01/22-17:00:17.124 2253 Delete type=0 #35
+2019/01/22-18:00:02.791 2253 Level-0 table #40: started
+2019/01/22-18:00:02.831 2253 Level-0 table #40: 3835183 bytes OK
+2019/01/22-18:00:02.839 2253 Delete type=0 #37
+2019/01/22-18:00:02.840 2253 Compacting 4@0 + 2@1 files
+2019/01/22-18:00:02.917 2253 Generated table #41@0: 1 keys, 3834880 bytes
+2019/01/22-18:00:02.926 2253 Generated table #42@0: 4 keys, 394 bytes
+2019/01/22-18:00:02.926 2253 Compacted 4@0 + 2@1 files => 3835274 bytes
+2019/01/22-18:00:02.933 2253 compacted to: files[ 0 2 1 0 0 0 0 ]
+2019/01/22-18:00:02.933 2253 Delete type=2 #33
+2019/01/22-18:00:02.933 2253 Delete type=2 #38
+2019/01/22-18:00:02.934 2253 Delete type=2 #40
+2019/01/22-18:00:02.934 2253 Delete type=2 #31
+2019/01/22-18:00:02.934 2253 Delete type=2 #36
+2019/01/22-18:00:02.934 2253 Delete type=2 #30
+2019/01/22-18:00:04.225 2253 Level-0 table #44: started
+2019/01/22-18:00:04.268 2253 Level-0 table #44: 3835118 bytes OK
+2019/01/22-18:00:04.276 2253 Delete type=0 #39
+2019/01/22-19:00:02.480 2253 Level-0 table #46: started
+2019/01/22-19:00:02.525 2253 Level-0 table #46: 3834880 bytes OK
+2019/01/22-19:00:02.534 2253 Delete type=0 #43
+2019/01/22-19:00:02.764 2253 Level-0 table #48: started
+2019/01/22-19:00:02.802 2253 Level-0 table #48: 3834882 bytes OK
+2019/01/22-19:00:02.813 2253 Delete type=0 #45
+2019/01/22-20:00:02.530 2253 Level-0 table #50: started
+2019/01/22-20:00:02.575 2253 Level-0 table #50: 3835127 bytes OK
+2019/01/22-20:00:02.582 2253 Delete type=0 #47
+2019/01/22-20:00:02.584 2253 Compacting 4@0 + 2@1 files
+2019/01/22-20:00:02.667 2253 Generated table #51@0: 1 keys, 3834882 bytes
+2019/01/22-20:00:02.675 2253 Generated table #52@0: 4 keys, 395 bytes
+2019/01/22-20:00:02.675 2253 Compacted 4@0 + 2@1 files => 3835277 bytes
+2019/01/22-20:00:02.683 2253 compacted to: files[ 0 2 1 0 0 0 0 ]
+2019/01/22-20:00:02.683 2253 Delete type=2 #42
+2019/01/22-20:00:02.683 2253 Delete type=2 #46
+2019/01/22-20:00:02.683 2253 Delete type=2 #41
+2019/01/22-20:00:02.684 2253 Delete type=2 #48
+2019/01/22-20:00:02.684 2253 Delete type=2 #44
+2019/01/22-20:00:02.684 2253 Delete type=2 #50
+2019/01/22-20:00:02.765 2253 Level-0 table #54: started
+2019/01/22-20:00:02.804 2253 Level-0 table #54: 3834885 bytes OK
+2019/01/22-20:00:02.811 2253 Delete type=0 #49
+2019/01/22-21:00:02.526 2253 Level-0 table #56: started
+2019/01/22-21:00:02.567 2253 Level-0 table #56: 3835117 bytes OK
+2019/01/22-21:00:02.575 2253 Delete type=0 #53
+2019/01/22-21:00:02.808 2253 Level-0 table #58: started
+2019/01/22-21:00:02.847 2253 Level-0 table #58: 3834877 bytes OK
+2019/01/22-21:00:02.854 2253 Delete type=0 #55
+2019/01/22-21:17:58.839 2253 Level-0 table #60: started
+2019/01/22-21:17:58.881 2253 Level-0 table #60: 3835121 bytes OK
+2019/01/22-21:17:58.889 2253 Delete type=0 #57
+2019/01/22-21:17:58.943 2253 Compacting 4@0 + 2@1 files
+2019/01/22-21:17:59.017 2253 Generated table #61@0: 1 keys, 3834876 bytes
+2019/01/22-21:17:59.025 2253 Generated table #62@0: 4 keys, 394 bytes
+2019/01/22-21:17:59.025 2253 Compacted 4@0 + 2@1 files => 3835270 bytes
+2019/01/22-21:17:59.032 2253 compacted to: files[ 0 2 1 0 0 0 0 ]
+2019/01/22-21:17:59.032 2253 Delete type=2 #56
+2019/01/22-21:17:59.033 2253 Delete type=2 #60
+2019/01/22-21:17:59.034 2253 Delete type=2 #52
+2019/01/22-21:17:59.034 2253 Delete type=2 #51
+2019/01/22-21:17:59.034 2253 Delete type=2 #58
+2019/01/22-21:17:59.035 2253 Delete type=2 #54

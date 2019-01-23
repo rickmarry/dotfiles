@@ -1,0 +1,689 @@
+[01/22/19, 17:00:29:486] info: ╔═════════════════════════════════════════════════════════════════════════════╗
+[01/22/19, 17:00:29:487] info: ║      Slack 3.3.3, linux 4.14.78-1-lts on x64 at 01/22/19, 17:00:29:484      ║
+[01/22/19, 17:00:29:487] info: ╚═════════════════════════════════════════════════════════════════════════════╝
+[01/22/19, 17:00:29:791] info: Initializing local storage instance at path: /home/rickm/dotfiles/config/Slack/local-settings.json
+[01/22/19, 17:00:29:866] error: Locale: Tried to access systemLocale before application was ready
+[01/22/19, 17:00:30:105] info: TraceRecorder: setting up trace recorder, trace will be stored under /home/rickm/dotfiles/config/Slack/logs/recorded-trace
+[01/22/19, 17:00:30:110] info: Configuring uncaughtExceptionHandler
+[01/22/19, 17:00:30:110] info: Configuring unhandledRejectionHandler
+[01/22/19, 17:00:30:110] info: Registered with apiKey acaff8df67924f677747922423057034
+[01/22/19, 17:00:30:226] error: TransformPasswords: Cannot access keychain
+{
+  "error": {
+    "message": "The name org.freedesktop.secrets was not provided by any .service files",
+    "stack": "Error: The name org.freedesktop.secrets was not provided by any .service files"
+  }
+}
+[01/22/19, 17:00:30:227] warn: BrowserStore: Couldn't access keychain, make note of it
+[01/22/19, 17:00:30:242] info: Store: persist/REHYDRATE
+[01/22/19, 17:00:30:264] info: Store: UPDATE_SETTINGS
+{
+  "isSignedIntoSlackOrg": false
+}
+[01/22/19, 17:00:30:266] info: UpdaterEpics: Updates disabled because
+{
+  "reasons": [
+    "using Linux"
+  ]
+}
+[01/22/19, 17:00:30:268] info: Created uuid 'ab3fed71-5e1d-5c8a-8933-d43fb7706cd2'
+[01/22/19, 17:00:30:354] info: Tray Handler: Showing a tray balloon with title: Welcome to Slack!
+[01/22/19, 17:00:30:358] info: Store: INITIALIZE_SETTINGS
+{
+  "releaseChannel": "prod",
+  "platformVersion": {
+    "major": 4,
+    "minor": 14,
+    "build": 78
+  },
+  "isTitleBarHidden": false,
+  "isDevMode": false,
+  "appVersion": "3.3.3",
+  "versionName": "Dirty Computer",
+  "devEnv": null,
+  "resourcePath": "/usr/lib/slack/resources/app.asar",
+  "webappSrcPath": null,
+  "webappParams": null,
+  "launchOnStartup": false,
+  "openDevToolsOnStart": false,
+  "logFile": null,
+  "pretendNotReallyWindows10": false,
+  "isAeroGlassEnabled": false,
+  "isGpuCompositionAvailable": true,
+  "linux": {
+    "os": "Arch Linux",
+    "release": "",
+    "desktopEnvironment": "i3"
+  }
+}
+[01/22/19, 17:00:30:359] info: AutoLoginEpic: Checking for autologin.
+[01/22/19, 17:00:30:361] info: Store: UPDATE_SETTINGS
+{
+  "hasRunApp": true
+}
+[01/22/19, 17:00:30:363] info: WebContentsMediator: Attaching to new webContents
+[01/22/19, 17:00:30:365] info: Store: ADD_WINDOW
+{
+  "id": 2,
+  "type": "main"
+}
+[01/22/19, 17:00:30:366] info: BrowserViewManager: Starting initialization
+[01/22/19, 17:00:30:367] info: PersistSettingsWindowBehavior: Loading windowMetrics
+{
+  "settings": null
+}
+[01/22/19, 17:00:30:367] info: PersistSettingsWindowBehavior: Resetting to default window position
+{
+  "settings": {
+    "position": [
+      1952,
+      144
+    ],
+    "size": [
+      1536,
+      1152
+    ]
+  }
+}
+[01/22/19, 17:00:30:367] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "position": [
+    1952,
+    144
+  ],
+  "size": [
+    1536,
+    1152
+  ]
+}
+[01/22/19, 17:00:30:381] info: Store: UPDATE_SETTINGS
+{
+  "PrefSSBFileDownloadPath": "/home/rickm/Downloads"
+}
+[01/22/19, 17:00:30:382] info: DownloadListener: Downloads directory set to
+{
+  "downloadsDirectory": "/home/rickm/Downloads"
+}
+[01/22/19, 17:00:30:382] info: Application: Setting main window ID
+{
+  "id": 2
+}
+[01/22/19, 17:00:30:382] info: App: Welcome to Slack 3.3.3 x64
+[01/22/19, 17:00:30:383] info: App load time: 1,78923592
+[01/22/19, 17:00:31:131] info: Store: BACKGROUND_CLIENTS_INITIALIZED
+[01/22/19, 17:00:31:135] info: Store: BACKGROUND_CLIENTS_INITIALIZED true
+[01/22/19, 17:00:31:833] info: Store: SET_NETWORK_STATUS online
+[01/22/19, 17:00:31:835] info: Store: MAIN_WINDOW_SHOWN
+[01/22/19, 17:00:31:842] info: createSignInWindowEpic: No teams signed in, showing sign-in window
+[01/22/19, 17:00:31:845] info: WebContentsMediator: Attaching to new webContents
+[01/22/19, 17:00:31:847] info: Store: ADD_WINDOW
+{
+  "id": 3,
+  "type": "sign-in"
+}
+[01/22/19, 17:00:31:850] info: SignInEpic: Loading URL in new window https://slack.com/signin
+[01/22/19, 17:00:36:436] info: Store: SIGN_IN_CANCELED
+[01/22/19, 17:00:36:437] info: SignInEpic: Sign-in window closed
+[01/22/19, 17:00:36:438] info: maybeQuitAppAction
+{
+  "canceledSignIn": true,
+  "hasNoTeams": true
+}
+[01/22/19, 17:00:36:438] info: SignInEpic: End of the road
+{
+  "action": "QUIT_APP"
+}
+[01/22/19, 17:00:36:438] info: Store: QUIT_APP
+[01/22/19, 17:00:36:440] info: quitApplicationEpic: found update metadata, send telemetry
+[01/22/19, 17:00:36:440] info: EpicHelpers: Flushing cookie store
+[01/22/19, 17:00:36:441] info: Store: REMOVE_WINDOW 3
+[01/22/19, 17:00:36:475] info: EpicHelpers: Flushing local-settings.json
+[01/22/19, 17:00:36:504] info: quitApplicationEpic: Closing main window
+{
+  "id": 2
+}
+[01/22/19, 17:00:36:505] info: Allowing window close because user chose to quit
+[01/22/19, 17:00:36:505] info: Notification Window Manager: Trying to close notifications window
+[01/22/19, 17:00:36:505] warn: Notification Window Manager: Could not find notifications window in state
+[01/22/19, 17:00:36:505] info: App: Disposing application
+[01/22/19, 17:00:36:506] info: Store: REMOVE_WINDOW 2
+[01/22/19, 17:00:36:506] info: quitApplicationEpic: Disposing item
+{
+  "type": "ReduxPersistStorage"
+}
+[01/22/19, 17:00:36:514] info: Store: QUIT_APP
+[01/22/19, 17:00:36:586] info: Store: QUIT_APP
+[01/22/19, 21:19:53:419] info: ╔═════════════════════════════════════════════════════════════════════════════╗
+[01/22/19, 21:19:53:420] info: ║      Slack 3.3.3, linux 4.14.78-1-lts on x64 at 01/22/19, 21:19:53:417      ║
+[01/22/19, 21:19:53:420] info: ╚═════════════════════════════════════════════════════════════════════════════╝
+[01/22/19, 21:19:53:698] info: Initializing local storage instance at path: /home/rickm/dotfiles/config/Slack/local-settings.json
+[01/22/19, 21:19:53:768] error: Locale: Tried to access systemLocale before application was ready
+[01/22/19, 21:19:53:987] info: TraceRecorder: setting up trace recorder, trace will be stored under /home/rickm/dotfiles/config/Slack/logs/recorded-trace
+[01/22/19, 21:19:53:992] info: Configuring uncaughtExceptionHandler
+[01/22/19, 21:19:53:992] info: Configuring unhandledRejectionHandler
+[01/22/19, 21:19:53:992] info: Registered with apiKey acaff8df67924f677747922423057034
+[01/22/19, 21:19:54:080] info: BrowserStore: Keychain access previously denied, don't ask again
+[01/22/19, 21:19:54:088] info: Store: persist/REHYDRATE
+{
+  "appTeams": {
+    "selectedTeamId": null,
+    "teamsByIndex": [],
+    "teamsToSignOut": []
+  },
+  "dialog": "[REDACTED]",
+  "downloads": "[REDACTED]",
+  "enterprise": {},
+  "settings": {
+    "appVersion": "3.3.3",
+    "versionName": "Dirty Computer",
+    "platform": "linux",
+    "platformVersion": {
+      "major": 4,
+      "minor": 14,
+      "build": 78
+    },
+    "isWin10": false,
+    "isBeforeWin10": false,
+    "resourcePath": "/usr/lib/slack/resources/app.asar",
+    "webappSrcPath": null,
+    "webappParams": null,
+    "isDevMode": false,
+    "devEnv": null,
+    "logFile": null,
+    "rxLogging": false,
+    "openDevToolsOnStart": false,
+    "pretendNotReallyWindows10": false,
+    "releaseChannel": "prod",
+    "autoHideMenuBar": false,
+    "defaultSigninTeam": null,
+    "isTitleBarHidden": false,
+    "hasRunApp": true,
+    "hasRunFromTray": false,
+    "reportIssueOnStartup": false,
+    "isSignedIntoSlackOrg": false,
+    "isGpuCompositionAvailable": true,
+    "runFromTray": true,
+    "launchOnStartup": false,
+    "spellcheckerLanguage": null,
+    "zoomLevel": 0,
+    "workspaceIdleTimeout": 43200000,
+    "whitelistedUrlSchemes": [
+      "http:",
+      "https:",
+      "mailto:",
+      "skype:",
+      "spotify:",
+      "live:",
+      "callto:",
+      "tel:",
+      "im:",
+      "sip:",
+      "sips:",
+      "slack:"
+    ],
+    "isTitleBarForcedByUser": false,
+    "useHwAcceleration": true,
+    "isOpenExternalShellForced": true,
+    "PrefSSBFileDownloadPath": "/home/rickm/Downloads",
+    "notificationMethod": null,
+    "notificationPlayback": null,
+    "notificationFailover": 0,
+    "notificationFailoverEnabled": true,
+    "notificationClickThrough": false,
+    "notificationClickThroughMain": true,
+    "notificationTimeout": 6000,
+    "notificationAfterHoverTimeout": 2000,
+    "notificationMaxItems": 3,
+    "notificationZoomLevel": null,
+    "notificationStyle": null,
+    "notificationPresentationCheck": null,
+    "notifyPosition": {
+      "corner": "bottom_right",
+      "display": "same_as_app"
+    },
+    "locale": "en-US",
+    "spellCheckerVersion": "V2",
+    "os": false,
+    "release": false,
+    "desktopEnvironment": false,
+    "isAeroGlassEnabled": false,
+    "linux": {
+      "os": "Arch Linux",
+      "release": "",
+      "desktopEnvironment": "i3"
+    }
+  },
+  "teams": "[REDACTED]",
+  "windowFrame": {
+    "windowSettings": {
+      "position": [
+        1952,
+        144
+      ],
+      "size": [
+        1536,
+        1152
+      ]
+    },
+    "isFullScreen": false
+  }
+}
+[01/22/19, 21:19:54:099] info: Store: UPDATE_SETTINGS
+{
+  "isSignedIntoSlackOrg": false
+}
+[01/22/19, 21:19:54:100] info: UpdaterEpics: Updates disabled because
+{
+  "reasons": [
+    "using Linux"
+  ]
+}
+[01/22/19, 21:19:54:184] info: Store: INITIALIZE_SETTINGS
+{
+  "releaseChannel": "prod",
+  "platformVersion": {
+    "major": 4,
+    "minor": 14,
+    "build": 78
+  },
+  "isTitleBarHidden": false,
+  "isDevMode": false,
+  "appVersion": "3.3.3",
+  "versionName": "Dirty Computer",
+  "devEnv": null,
+  "resourcePath": "/usr/lib/slack/resources/app.asar",
+  "webappSrcPath": null,
+  "webappParams": null,
+  "launchOnStartup": false,
+  "openDevToolsOnStart": false,
+  "logFile": null,
+  "pretendNotReallyWindows10": false,
+  "isAeroGlassEnabled": false,
+  "isGpuCompositionAvailable": true,
+  "linux": {
+    "os": "Arch Linux",
+    "release": "",
+    "desktopEnvironment": "i3"
+  }
+}
+[01/22/19, 21:19:54:186] info: AutoLoginEpic: Checking for autologin.
+[01/22/19, 21:19:54:189] info: WebContentsMediator: Attaching to new webContents
+[01/22/19, 21:19:54:191] info: Store: ADD_WINDOW
+{
+  "id": 2,
+  "type": "main"
+}
+[01/22/19, 21:19:54:191] info: BrowserViewManager: Starting initialization
+[01/22/19, 21:19:54:193] info: PersistSettingsWindowBehavior: Loading windowMetrics
+{
+  "settings": {
+    "position": [
+      1952,
+      144
+    ],
+    "size": [
+      1536,
+      1152
+    ]
+  }
+}
+[01/22/19, 21:19:54:204] info: Application: Setting main window ID
+{
+  "id": 2
+}
+[01/22/19, 21:19:54:205] info: App: Welcome to Slack 3.3.3 x64
+[01/22/19, 21:19:54:205] info: App load time: 0,953734836
+[01/22/19, 21:19:54:870] info: Store: BACKGROUND_CLIENTS_INITIALIZED
+[01/22/19, 21:19:54:872] info: Store: BACKGROUND_CLIENTS_INITIALIZED true
+[01/22/19, 21:19:55:400] info: Store: SET_NETWORK_STATUS online
+[01/22/19, 21:19:55:404] info: Store: MAIN_WINDOW_SHOWN
+[01/22/19, 21:19:55:411] info: createSignInWindowEpic: No teams signed in, showing sign-in window
+[01/22/19, 21:19:55:412] info: WebContentsMediator: Attaching to new webContents
+[01/22/19, 21:19:55:414] info: Store: ADD_WINDOW
+{
+  "id": 3,
+  "type": "sign-in"
+}
+[01/22/19, 21:19:55:415] info: SignInEpic: Loading URL in new window https://slack.com/signin
+[01/22/19, 21:20:07:697] info: SignInEpic: Page redirect
+{
+  "newURL": "https://chefio.slack.com/"
+}
+[01/22/19, 21:20:07:698] info: SignInEpic: Page redirect
+{
+  "newURL": "https://chefio.slack.com/"
+}
+[01/22/19, 21:20:07:698] info: SignInEpic: Page redirect
+{
+  "newURL": "https://chefio.slack.com/"
+}
+[01/22/19, 21:20:10:332] info: SignInEpic: Page redirect
+{
+  "newURL": "https://chef.okta.com/app/google/krujo1s5TURZVIEQHCGA/sso/saml?SAMLRequest=fVLJTsMwEL0j8Q%2BW71m5gNWkKiBEJZaIBg7cXGeSGBzbeJwW%2Fh43LQIOcPTz81vGM5u%2FD4pswKE0uqBZnFICWphG6q6gj%2FVVdErn5fHRDPmgLFuMvtcP8DYCehJeamTTRUFHp5nhKJFpPgAyL9hqcXvD8jhl1hlvhFGULC8LCoPWtpeqty03nRDypRu6ddta1XS9lc2rsB3IV0nJ01esfBdriTjCUqPn2gcozc6iNIvykzrNWZ6yLH2mpDo4nUu9b%2FBfrPWehOy6rquoul%2FVk8BGNuDuArugnTGdgliYYWdfcUS5CXDLFQIlC0RwPgS8MBrHAdwK3EYKeHy4KWjvvUWWJNvtNv6WSXhiLIbxHk4CaTmNlk3t3I%2BZ%2Fp%2Bdf3nT8i%2F1WfJDuDx84K7X8rIySooPslDKbC8ccB9KeTeGTlfGDdz%2F7Z3F2YTIJmonKhs1WhCyldBQkpR719%2BbEvbnEw%3D%3D&RelayState=https%3A%2F%2Faccounts.google.com%2FCheckCookie%3Fcontinue%3Dhttps%253A%252F%252Faccounts.google.com%252Fo%252Foauth2%252Fv2%252Fauth%253Fhd%253Dchef.io%2526client_id%253D619872790197-0au3m58c2q0phgqbqqp4ka429ckusggt.apps.googleusercontent.com%2526as%253DidSN8xDmsvU36O7_RCWYtw%2526destination%253Dhttps%25253A%25252F%25252Fslack.com%2526approval_state%253D%252521ChR3ZkxnZFd2YTJpN1lZZEJHMGRWehIfSTY0cE5IbGV6Q2dhVUEyYUd3VDlRSnhBZHgtSWh4WQ%2525E2%252588%252599APNbktkAAAAAXEkg2U-ZlECxfW8P_LtRifmkh4t9r5N0%2526oauthgdpr%253D1%2526xsrfsig%253DChkAeAh8TxmuarzkHy0fl8IWw-vsyCimRd2NEg5hcHByb3ZhbF9zdGF0ZRILZGVzdGluYXRpb24SBXNvYWN1Eg9vYXV0aHJpc2t5c2NvcGU%2526authuser%253Dunknown"
+}
+[01/22/19, 21:20:10:333] info: SignInEpic: Page redirect
+{
+  "newURL": "https://chef.okta.com/app/google/krujo1s5TURZVIEQHCGA/sso/saml?SAMLRequest=fVLJTsMwEL0j8Q%2BW71m5gNWkKiBEJZaIBg7cXGeSGBzbeJwW%2Fh43LQIOcPTz81vGM5u%2FD4pswKE0uqBZnFICWphG6q6gj%2FVVdErn5fHRDPmgLFuMvtcP8DYCehJeamTTRUFHp5nhKJFpPgAyL9hqcXvD8jhl1hlvhFGULC8LCoPWtpeqty03nRDypRu6ddta1XS9lc2rsB3IV0nJ01esfBdriTjCUqPn2gcozc6iNIvykzrNWZ6yLH2mpDo4nUu9b%2FBfrPWehOy6rquoul%2FVk8BGNuDuArugnTGdgliYYWdfcUS5CXDLFQIlC0RwPgS8MBrHAdwK3EYKeHy4KWjvvUWWJNvtNv6WSXhiLIbxHk4CaTmNlk3t3I%2BZ%2Fp%2Bdf3nT8i%2F1WfJDuDx84K7X8rIySooPslDKbC8ccB9KeTeGTlfGDdz%2F7Z3F2YTIJmonKhs1WhCyldBQkpR719%2BbEvbnEw%3D%3D&RelayState=https%3A%2F%2Faccounts.google.com%2FCheckCookie%3Fcontinue%3Dhttps%253A%252F%252Faccounts.google.com%252Fo%252Foauth2%252Fv2%252Fauth%253Fhd%253Dchef.io%2526client_id%253D619872790197-0au3m58c2q0phgqbqqp4ka429ckusggt.apps.googleusercontent.com%2526as%253DidSN8xDmsvU36O7_RCWYtw%2526destination%253Dhttps%25253A%25252F%25252Fslack.com%2526approval_state%253D%252521ChR3ZkxnZFd2YTJpN1lZZEJHMGRWehIfSTY0cE5IbGV6Q2dhVUEyYUd3VDlRSnhBZHgtSWh4WQ%2525E2%252588%252599APNbktkAAAAAXEkg2U-ZlECxfW8P_LtRifmkh4t9r5N0%2526oauthgdpr%253D1%2526xsrfsig%253DChkAeAh8TxmuarzkHy0fl8IWw-vsyCimRd2NEg5hcHByb3ZhbF9zdGF0ZRILZGVzdGluYXRpb24SBXNvYWN1Eg9vYXV0aHJpc2t5c2NvcGU%2526authuser%253Dunknown"
+}
+[01/22/19, 21:20:10:334] info: SignInEpic: Page redirect
+{
+  "newURL": "https://chef.okta.com/app/google/krujo1s5TURZVIEQHCGA/sso/saml?SAMLRequest=fVLJTsMwEL0j8Q%2BW71m5gNWkKiBEJZaIBg7cXGeSGBzbeJwW%2Fh43LQIOcPTz81vGM5u%2FD4pswKE0uqBZnFICWphG6q6gj%2FVVdErn5fHRDPmgLFuMvtcP8DYCehJeamTTRUFHp5nhKJFpPgAyL9hqcXvD8jhl1hlvhFGULC8LCoPWtpeqty03nRDypRu6ddta1XS9lc2rsB3IV0nJ01esfBdriTjCUqPn2gcozc6iNIvykzrNWZ6yLH2mpDo4nUu9b%2FBfrPWehOy6rquoul%2FVk8BGNuDuArugnTGdgliYYWdfcUS5CXDLFQIlC0RwPgS8MBrHAdwK3EYKeHy4KWjvvUWWJNvtNv6WSXhiLIbxHk4CaTmNlk3t3I%2BZ%2Fp%2Bdf3nT8i%2F1WfJDuDx84K7X8rIySooPslDKbC8ccB9KeTeGTlfGDdz%2F7Z3F2YTIJmonKhs1WhCyldBQkpR719%2BbEvbnEw%3D%3D&RelayState=https%3A%2F%2Faccounts.google.com%2FCheckCookie%3Fcontinue%3Dhttps%253A%252F%252Faccounts.google.com%252Fo%252Foauth2%252Fv2%252Fauth%253Fhd%253Dchef.io%2526client_id%253D619872790197-0au3m58c2q0phgqbqqp4ka429ckusggt.apps.googleusercontent.com%2526as%253DidSN8xDmsvU36O7_RCWYtw%2526destination%253Dhttps%25253A%25252F%25252Fslack.com%2526approval_state%253D%252521ChR3ZkxnZFd2YTJpN1lZZEJHMGRWehIfSTY0cE5IbGV6Q2dhVUEyYUd3VDlRSnhBZHgtSWh4WQ%2525E2%252588%252599APNbktkAAAAAXEkg2U-ZlECxfW8P_LtRifmkh4t9r5N0%2526oauthgdpr%253D1%2526xsrfsig%253DChkAeAh8TxmuarzkHy0fl8IWw-vsyCimRd2NEg5hcHByb3ZhbF9zdGF0ZRILZGVzdGluYXRpb24SBXNvYWN1Eg9vYXV0aHJpc2t5c2NvcGU%2526authuser%253Dunknown"
+}
+[01/22/19, 21:20:10:483] info: SignInEpic: Page redirect
+{
+  "newURL": "https://chef.okta.com/login/login.htm?fromURI=%2Fapp%2Fgoogle%2Fkrujo1s5TURZVIEQHCGA%2Fsso%2Fsaml%3FSAMLRequest%3DfVLJTsMwEL0j8Q%252BW71m5gNWkKiBEJZaIBg7cXGeSGBzbeJwW%252Fh43LQIOcPTz81vGM5u%252FD4pswKE0uqBZnFICWphG6q6gj%252FVVdErn5fHRDPmgLFuMvtcP8DYCehJeamTTRUFHp5nhKJFpPgAyL9hqcXvD8jhl1hlvhFGULC8LCoPWtpeqty03nRDypRu6ddta1XS9lc2rsB3IV0nJ01esfBdriTjCUqPn2gcozc6iNIvykzrNWZ6yLH2mpDo4nUu9b%252FBfrPWehOy6rquoul%252FVk8BGNuDuArugnTGdgliYYWdfcUS5CXDLFQIlC0RwPgS8MBrHAdwK3EYKeHy4KWjvvUWWJNvtNv6WSXhiLIbxHk4CaTmNlk3t3I%252BZ%252Fp%252Bdf3nT8i%252F1WfJDuDx84K7X8rIySooPslDKbC8ccB9KeTeGTlfGDdz%252F7Z3F2YTIJmonKhs1WhCyldBQkpR719%252BbEvbnEw%253D%253D%26RelayState%3Dhttps%253A%252F%252Faccounts.google.com%252FCheckCookie%253Fcontinue%253Dhttps%25253A%25252F%25252Faccounts.google.com%25252Fo%25252Foauth2%25252Fv2%25252Fauth%25253Fhd%25253Dchef.io%252526client_id%25253D619872790197-0au3m58c2q0phgqbqqp4ka429ckusggt.apps.googleusercontent.com%252526as%25253DidSN8xDmsvU36O7_RCWYtw%252526destination%25253Dhttps%2525253A%2525252F%2525252Fslack.com%252526approval_state%25253D%25252521ChR3ZkxnZFd2YTJpN1lZZEJHMGRWehIfSTY0cE5IbGV6Q2dhVUEyYUd3VDlRSnhBZHgtSWh4WQ%252525E2%25252588%25252599APNbktkAAAAAXEkg2U-ZlECxfW8P_LtRifmkh4t9r5N0%252526oauthgdpr%25253D1%252526xsrfsig%25253DChkAeAh8TxmuarzkHy0fl8IWw-vsyCimRd2NEg5hcHByb3ZhbF9zdGF0ZRILZGVzdGluYXRpb24SBXNvYWN1Eg9vYXV0aHJpc2t5c2NvcGU%252526authuser%25253Dunknown"
+}
+[01/22/19, 21:20:10:484] info: SignInEpic: Page redirect
+{
+  "newURL": "https://chef.okta.com/login/login.htm?fromURI=%2Fapp%2Fgoogle%2Fkrujo1s5TURZVIEQHCGA%2Fsso%2Fsaml%3FSAMLRequest%3DfVLJTsMwEL0j8Q%252BW71m5gNWkKiBEJZaIBg7cXGeSGBzbeJwW%252Fh43LQIOcPTz81vGM5u%252FD4pswKE0uqBZnFICWphG6q6gj%252FVVdErn5fHRDPmgLFuMvtcP8DYCehJeamTTRUFHp5nhKJFpPgAyL9hqcXvD8jhl1hlvhFGULC8LCoPWtpeqty03nRDypRu6ddta1XS9lc2rsB3IV0nJ01esfBdriTjCUqPn2gcozc6iNIvykzrNWZ6yLH2mpDo4nUu9b%252FBfrPWehOy6rquoul%252FVk8BGNuDuArugnTGdgliYYWdfcUS5CXDLFQIlC0RwPgS8MBrHAdwK3EYKeHy4KWjvvUWWJNvtNv6WSXhiLIbxHk4CaTmNlk3t3I%252BZ%252Fp%252Bdf3nT8i%252F1WfJDuDx84K7X8rIySooPslDKbC8ccB9KeTeGTlfGDdz%252F7Z3F2YTIJmonKhs1WhCyldBQkpR719%252BbEvbnEw%253D%253D%26RelayState%3Dhttps%253A%252F%252Faccounts.google.com%252FCheckCookie%253Fcontinue%253Dhttps%25253A%25252F%25252Faccounts.google.com%25252Fo%25252Foauth2%25252Fv2%25252Fauth%25253Fhd%25253Dchef.io%252526client_id%25253D619872790197-0au3m58c2q0phgqbqqp4ka429ckusggt.apps.googleusercontent.com%252526as%25253DidSN8xDmsvU36O7_RCWYtw%252526destination%25253Dhttps%2525253A%2525252F%2525252Fslack.com%252526approval_state%25253D%25252521ChR3ZkxnZFd2YTJpN1lZZEJHMGRWehIfSTY0cE5IbGV6Q2dhVUEyYUd3VDlRSnhBZHgtSWh4WQ%252525E2%25252588%25252599APNbktkAAAAAXEkg2U-ZlECxfW8P_LtRifmkh4t9r5N0%252526oauthgdpr%25253D1%252526xsrfsig%25253DChkAeAh8TxmuarzkHy0fl8IWw-vsyCimRd2NEg5hcHByb3ZhbF9zdGF0ZRILZGVzdGluYXRpb24SBXNvYWN1Eg9vYXV0aHJpc2t5c2NvcGU%252526authuser%25253Dunknown"
+}
+[01/22/19, 21:20:10:485] info: SignInEpic: Page redirect
+{
+  "newURL": "https://chef.okta.com/login/login.htm?fromURI=%2Fapp%2Fgoogle%2Fkrujo1s5TURZVIEQHCGA%2Fsso%2Fsaml%3FSAMLRequest%3DfVLJTsMwEL0j8Q%252BW71m5gNWkKiBEJZaIBg7cXGeSGBzbeJwW%252Fh43LQIOcPTz81vGM5u%252FD4pswKE0uqBZnFICWphG6q6gj%252FVVdErn5fHRDPmgLFuMvtcP8DYCehJeamTTRUFHp5nhKJFpPgAyL9hqcXvD8jhl1hlvhFGULC8LCoPWtpeqty03nRDypRu6ddta1XS9lc2rsB3IV0nJ01esfBdriTjCUqPn2gcozc6iNIvykzrNWZ6yLH2mpDo4nUu9b%252FBfrPWehOy6rquoul%252FVk8BGNuDuArugnTGdgliYYWdfcUS5CXDLFQIlC0RwPgS8MBrHAdwK3EYKeHy4KWjvvUWWJNvtNv6WSXhiLIbxHk4CaTmNlk3t3I%252BZ%252Fp%252Bdf3nT8i%252F1WfJDuDx84K7X8rIySooPslDKbC8ccB9KeTeGTlfGDdz%252F7Z3F2YTIJmonKhs1WhCyldBQkpR719%252BbEvbnEw%253D%253D%26RelayState%3Dhttps%253A%252F%252Faccounts.google.com%252FCheckCookie%253Fcontinue%253Dhttps%25253A%25252F%25252Faccounts.google.com%25252Fo%25252Foauth2%25252Fv2%25252Fauth%25253Fhd%25253Dchef.io%252526client_id%25253D619872790197-0au3m58c2q0phgqbqqp4ka429ckusggt.apps.googleusercontent.com%252526as%25253DidSN8xDmsvU36O7_RCWYtw%252526destination%25253Dhttps%2525253A%2525252F%2525252Fslack.com%252526approval_state%25253D%25252521ChR3ZkxnZFd2YTJpN1lZZEJHMGRWehIfSTY0cE5IbGV6Q2dhVUEyYUd3VDlRSnhBZHgtSWh4WQ%252525E2%25252588%25252599APNbktkAAAAAXEkg2U-ZlECxfW8P_LtRifmkh4t9r5N0%252526oauthgdpr%25253D1%252526xsrfsig%25253DChkAeAh8TxmuarzkHy0fl8IWw-vsyCimRd2NEg5hcHByb3ZhbF9zdGF0ZRILZGVzdGluYXRpb24SBXNvYWN1Eg9vYXV0aHJpc2t5c2NvcGU%252526authuser%25253Dunknown"
+}
+[01/22/19, 21:20:34:674] info: SignInEpic: Page redirect
+{
+  "newURL": "https://chef.okta.com/app/google/krujo1s5TURZVIEQHCGA/sso/saml?SAMLRequest=fVLJTsMwEL0j8Q%2BW71m5gNWkKiBEJZaIBg7cXGeSGBzbeJwW%2Fh43LQIOcPTz81vGM5u%2FD4pswKE0uqBZnFICWphG6q6gj%2FVVdErn5fHRDPmgLFuMvtcP8DYCehJeamTTRUFHp5nhKJFpPgAyL9hqcXvD8jhl1hlvhFGULC8LCoPWtpeqty03nRDypRu6ddta1XS9lc2rsB3IV0nJ01esfBdriTjCUqPn2gcozc6iNIvykzrNWZ6yLH2mpDo4nUu9b%2FBfrPWehOy6rquoul%2FVk8BGNuDuArugnTGdgliYYWdfcUS5CXDLFQIlC0RwPgS8MBrHAdwK3EYKeHy4KWjvvUWWJNvtNv6WSXhiLIbxHk4CaTmNlk3t3I%2BZ%2Fp%2Bdf3nT8i%2F1WfJDuDx84K7X8rIySooPslDKbC8ccB9KeTeGTlfGDdz%2F7Z3F2YTIJmonKhs1WhCyldBQkpR719%2BbEvbnEw%3D%3D&RelayState=https%3A%2F%2Faccounts.google.com%2FCheckCookie%3Fcontinue%3Dhttps%253A%252F%252Faccounts.google.com%252Fo%252Foauth2%252Fv2%252Fauth%253Fhd%253Dchef.io%2526client_id%253D619872790197-0au3m58c2q0phgqbqqp4ka429ckusggt.apps.googleusercontent.com%2526as%253DidSN8xDmsvU36O7_RCWYtw%2526destination%253Dhttps%25253A%25252F%25252Fslack.com%2526approval_state%253D%252521ChR3ZkxnZFd2YTJpN1lZZEJHMGRWehIfSTY0cE5IbGV6Q2dhVUEyYUd3VDlRSnhBZHgtSWh4WQ%2525E2%252588%252599APNbktkAAAAAXEkg2U-ZlECxfW8P_LtRifmkh4t9r5N0%2526oauthgdpr%253D1%2526xsrfsig%253DChkAeAh8TxmuarzkHy0fl8IWw-vsyCimRd2NEg5hcHByb3ZhbF9zdGF0ZRILZGVzdGluYXRpb24SBXNvYWN1Eg9vYXV0aHJpc2t5c2NvcGU%2526authuser%253Dunknown&fromLoginToken=MVKghDTxN5GEyoEXbEHb7n6LZcRpnbarSn6luFHPoYVkPsDUGfmtIhqoa9jaqOmippd1pXj2uox3zEpvNYWjv0srv2RmmHJ1FTwE00bssOBrWergMzVEdaf8dsuvMhew2fDu_jRi0To0wT8e-XF1SViNi9PZFghHNrqS4hak-zrNdlUi4kTwLYWX3--wc4Q7b4MvJx75u050QUvHZo375YGBE3IJdC-2Vww4HpVEZiqyFuJeVU9f8iBhjBQciBCLFwVBI_puOI2UTF9ScT13p4qrYILS7LEJm4pjwaRqdd3sAiZqHphtmcvFbaWhux4xoTctXzB0fHQyY76gzcNJfA"
+}
+[01/22/19, 21:20:34:676] info: SignInEpic: Page redirect
+{
+  "newURL": "https://chef.okta.com/app/google/krujo1s5TURZVIEQHCGA/sso/saml?SAMLRequest=fVLJTsMwEL0j8Q%2BW71m5gNWkKiBEJZaIBg7cXGeSGBzbeJwW%2Fh43LQIOcPTz81vGM5u%2FD4pswKE0uqBZnFICWphG6q6gj%2FVVdErn5fHRDPmgLFuMvtcP8DYCehJeamTTRUFHp5nhKJFpPgAyL9hqcXvD8jhl1hlvhFGULC8LCoPWtpeqty03nRDypRu6ddta1XS9lc2rsB3IV0nJ01esfBdriTjCUqPn2gcozc6iNIvykzrNWZ6yLH2mpDo4nUu9b%2FBfrPWehOy6rquoul%2FVk8BGNuDuArugnTGdgliYYWdfcUS5CXDLFQIlC0RwPgS8MBrHAdwK3EYKeHy4KWjvvUWWJNvtNv6WSXhiLIbxHk4CaTmNlk3t3I%2BZ%2Fp%2Bdf3nT8i%2F1WfJDuDx84K7X8rIySooPslDKbC8ccB9KeTeGTlfGDdz%2F7Z3F2YTIJmonKhs1WhCyldBQkpR719%2BbEvbnEw%3D%3D&RelayState=https%3A%2F%2Faccounts.google.com%2FCheckCookie%3Fcontinue%3Dhttps%253A%252F%252Faccounts.google.com%252Fo%252Foauth2%252Fv2%252Fauth%253Fhd%253Dchef.io%2526client_id%253D619872790197-0au3m58c2q0phgqbqqp4ka429ckusggt.apps.googleusercontent.com%2526as%253DidSN8xDmsvU36O7_RCWYtw%2526destination%253Dhttps%25253A%25252F%25252Fslack.com%2526approval_state%253D%252521ChR3ZkxnZFd2YTJpN1lZZEJHMGRWehIfSTY0cE5IbGV6Q2dhVUEyYUd3VDlRSnhBZHgtSWh4WQ%2525E2%252588%252599APNbktkAAAAAXEkg2U-ZlECxfW8P_LtRifmkh4t9r5N0%2526oauthgdpr%253D1%2526xsrfsig%253DChkAeAh8TxmuarzkHy0fl8IWw-vsyCimRd2NEg5hcHByb3ZhbF9zdGF0ZRILZGVzdGluYXRpb24SBXNvYWN1Eg9vYXV0aHJpc2t5c2NvcGU%2526authuser%253Dunknown&fromLoginToken=MVKghDTxN5GEyoEXbEHb7n6LZcRpnbarSn6luFHPoYVkPsDUGfmtIhqoa9jaqOmippd1pXj2uox3zEpvNYWjv0srv2RmmHJ1FTwE00bssOBrWergMzVEdaf8dsuvMhew2fDu_jRi0To0wT8e-XF1SViNi9PZFghHNrqS4hak-zrNdlUi4kTwLYWX3--wc4Q7b4MvJx75u050QUvHZo375YGBE3IJdC-2Vww4HpVEZiqyFuJeVU9f8iBhjBQciBCLFwVBI_puOI2UTF9ScT13p4qrYILS7LEJm4pjwaRqdd3sAiZqHphtmcvFbaWhux4xoTctXzB0fHQyY76gzcNJfA"
+}
+[01/22/19, 21:20:34:677] info: SignInEpic: Page redirect
+{
+  "newURL": "https://chef.okta.com/app/google/krujo1s5TURZVIEQHCGA/sso/saml?SAMLRequest=fVLJTsMwEL0j8Q%2BW71m5gNWkKiBEJZaIBg7cXGeSGBzbeJwW%2Fh43LQIOcPTz81vGM5u%2FD4pswKE0uqBZnFICWphG6q6gj%2FVVdErn5fHRDPmgLFuMvtcP8DYCehJeamTTRUFHp5nhKJFpPgAyL9hqcXvD8jhl1hlvhFGULC8LCoPWtpeqty03nRDypRu6ddta1XS9lc2rsB3IV0nJ01esfBdriTjCUqPn2gcozc6iNIvykzrNWZ6yLH2mpDo4nUu9b%2FBfrPWehOy6rquoul%2FVk8BGNuDuArugnTGdgliYYWdfcUS5CXDLFQIlC0RwPgS8MBrHAdwK3EYKeHy4KWjvvUWWJNvtNv6WSXhiLIbxHk4CaTmNlk3t3I%2BZ%2Fp%2Bdf3nT8i%2F1WfJDuDx84K7X8rIySooPslDKbC8ccB9KeTeGTlfGDdz%2F7Z3F2YTIJmonKhs1WhCyldBQkpR719%2BbEvbnEw%3D%3D&RelayState=https%3A%2F%2Faccounts.google.com%2FCheckCookie%3Fcontinue%3Dhttps%253A%252F%252Faccounts.google.com%252Fo%252Foauth2%252Fv2%252Fauth%253Fhd%253Dchef.io%2526client_id%253D619872790197-0au3m58c2q0phgqbqqp4ka429ckusggt.apps.googleusercontent.com%2526as%253DidSN8xDmsvU36O7_RCWYtw%2526destination%253Dhttps%25253A%25252F%25252Fslack.com%2526approval_state%253D%252521ChR3ZkxnZFd2YTJpN1lZZEJHMGRWehIfSTY0cE5IbGV6Q2dhVUEyYUd3VDlRSnhBZHgtSWh4WQ%2525E2%252588%252599APNbktkAAAAAXEkg2U-ZlECxfW8P_LtRifmkh4t9r5N0%2526oauthgdpr%253D1%2526xsrfsig%253DChkAeAh8TxmuarzkHy0fl8IWw-vsyCimRd2NEg5hcHByb3ZhbF9zdGF0ZRILZGVzdGluYXRpb24SBXNvYWN1Eg9vYXV0aHJpc2t5c2NvcGU%2526authuser%253Dunknown&fromLoginToken=MVKghDTxN5GEyoEXbEHb7n6LZcRpnbarSn6luFHPoYVkPsDUGfmtIhqoa9jaqOmippd1pXj2uox3zEpvNYWjv0srv2RmmHJ1FTwE00bssOBrWergMzVEdaf8dsuvMhew2fDu_jRi0To0wT8e-XF1SViNi9PZFghHNrqS4hak-zrNdlUi4kTwLYWX3--wc4Q7b4MvJx75u050QUvHZo375YGBE3IJdC-2Vww4HpVEZiqyFuJeVU9f8iBhjBQciBCLFwVBI_puOI2UTF9ScT13p4qrYILS7LEJm4pjwaRqdd3sAiZqHphtmcvFbaWhux4xoTctXzB0fHQyY76gzcNJfA"
+}
+[01/22/19, 21:20:35:228] info: SignInEpic: Page redirect
+{
+  "newURL": "https://accounts.google.com/signin/continue?sarp=1&continue=https%3A%2F%2Faccounts.google.com%2Fo%2Foauth2%2Fv2%2Fauth%3Fhd%3Dchef.io%26client_id%3D619872790197-0au3m58c2q0phgqbqqp4ka429ckusggt.apps.googleusercontent.com%26as%3DidSN8xDmsvU36O7_RCWYtw%26destination%3Dhttps%253A%252F%252Fslack.com%26approval_state%3D%2521ChR3ZkxnZFd2YTJpN1lZZEJHMGRWehIfSTY0cE5IbGV6Q2dhVUEyYUd3VDlRSnhBZHgtSWh4WQ%25E2%2588%2599APNbktkAAAAAXEkg2U-ZlECxfW8P_LtRifmkh4t9r5N0%26oauthgdpr%3D1%26xsrfsig%3DChkAeAh8TxmuarzkHy0fl8IWw-vsyCimRd2NEg5hcHByb3ZhbF9zdGF0ZRILZGVzdGluYXRpb24SBXNvYWN1Eg9vYXV0aHJpc2t5c2NvcGU%26authuser%3Dunknown&plt=AKgnsbt3z0S52cGesny5ZY-U01f6hMQ8gLGZ0suIfHmYQgngsSFOgyWnz1h4hSTxvkz3k4To7oujZBGvvy5jGp2v44iM-m3HIeADeAnjHPWZCS-ajm_ULN2T5Hr1kqJZKIXpbu3a57f0M2WcMFYabpUQc1DSznyOzj6-F5-51dQ02S1TBr0KGSK63Cn0u-xlC6jQ2anaDuv51mt_rhNFkYiCdRwG1Bdu1O7RH7BG9dbluvW6rZag8U53ef6cxeNW0QyB41bQEnmH&PersistentCookie=1&scc=0"
+}
+[01/22/19, 21:20:35:229] info: SignInEpic: Page redirect
+{
+  "newURL": "https://accounts.google.com/signin/continue?sarp=1&continue=https%3A%2F%2Faccounts.google.com%2Fo%2Foauth2%2Fv2%2Fauth%3Fhd%3Dchef.io%26client_id%3D619872790197-0au3m58c2q0phgqbqqp4ka429ckusggt.apps.googleusercontent.com%26as%3DidSN8xDmsvU36O7_RCWYtw%26destination%3Dhttps%253A%252F%252Fslack.com%26approval_state%3D%2521ChR3ZkxnZFd2YTJpN1lZZEJHMGRWehIfSTY0cE5IbGV6Q2dhVUEyYUd3VDlRSnhBZHgtSWh4WQ%25E2%2588%2599APNbktkAAAAAXEkg2U-ZlECxfW8P_LtRifmkh4t9r5N0%26oauthgdpr%3D1%26xsrfsig%3DChkAeAh8TxmuarzkHy0fl8IWw-vsyCimRd2NEg5hcHByb3ZhbF9zdGF0ZRILZGVzdGluYXRpb24SBXNvYWN1Eg9vYXV0aHJpc2t5c2NvcGU%26authuser%3Dunknown&plt=AKgnsbt3z0S52cGesny5ZY-U01f6hMQ8gLGZ0suIfHmYQgngsSFOgyWnz1h4hSTxvkz3k4To7oujZBGvvy5jGp2v44iM-m3HIeADeAnjHPWZCS-ajm_ULN2T5Hr1kqJZKIXpbu3a57f0M2WcMFYabpUQc1DSznyOzj6-F5-51dQ02S1TBr0KGSK63Cn0u-xlC6jQ2anaDuv51mt_rhNFkYiCdRwG1Bdu1O7RH7BG9dbluvW6rZag8U53ef6cxeNW0QyB41bQEnmH&PersistentCookie=1&scc=0"
+}
+[01/22/19, 21:20:35:229] info: SignInEpic: Page redirect
+{
+  "newURL": "https://accounts.google.com/signin/continue?sarp=1&continue=https%3A%2F%2Faccounts.google.com%2Fo%2Foauth2%2Fv2%2Fauth%3Fhd%3Dchef.io%26client_id%3D619872790197-0au3m58c2q0phgqbqqp4ka429ckusggt.apps.googleusercontent.com%26as%3DidSN8xDmsvU36O7_RCWYtw%26destination%3Dhttps%253A%252F%252Fslack.com%26approval_state%3D%2521ChR3ZkxnZFd2YTJpN1lZZEJHMGRWehIfSTY0cE5IbGV6Q2dhVUEyYUd3VDlRSnhBZHgtSWh4WQ%25E2%2588%2599APNbktkAAAAAXEkg2U-ZlECxfW8P_LtRifmkh4t9r5N0%26oauthgdpr%3D1%26xsrfsig%3DChkAeAh8TxmuarzkHy0fl8IWw-vsyCimRd2NEg5hcHByb3ZhbF9zdGF0ZRILZGVzdGluYXRpb24SBXNvYWN1Eg9vYXV0aHJpc2t5c2NvcGU%26authuser%3Dunknown&plt=AKgnsbt3z0S52cGesny5ZY-U01f6hMQ8gLGZ0suIfHmYQgngsSFOgyWnz1h4hSTxvkz3k4To7oujZBGvvy5jGp2v44iM-m3HIeADeAnjHPWZCS-ajm_ULN2T5Hr1kqJZKIXpbu3a57f0M2WcMFYabpUQc1DSznyOzj6-F5-51dQ02S1TBr0KGSK63Cn0u-xlC6jQ2anaDuv51mt_rhNFkYiCdRwG1Bdu1O7RH7BG9dbluvW6rZag8U53ef6cxeNW0QyB41bQEnmH&PersistentCookie=1&scc=0"
+}
+[01/22/19, 21:20:35:593] info: SignInEpic: Page redirect
+{
+  "newURL": "https://accounts.google.com/CheckCookie?sarp=1&scc=0&chtml=LoginDoneHtml&continue=https%3A%2F%2Faccounts.google.com%2Fo%2Foauth2%2Fv2%2Fauth%3Fhd%3Dchef.io%26client_id%3D619872790197-0au3m58c2q0phgqbqqp4ka429ckusggt.apps.googleusercontent.com%26as%3DidSN8xDmsvU36O7_RCWYtw%26destination%3Dhttps%253A%252F%252Fslack.com%26approval_state%3D%2521ChR3ZkxnZFd2YTJpN1lZZEJHMGRWehIfSTY0cE5IbGV6Q2dhVUEyYUd3VDlRSnhBZHgtSWh4WQ%25E2%2588%2599APNbktkAAAAAXEkg2U-ZlECxfW8P_LtRifmkh4t9r5N0%26oauthgdpr%3D1%26xsrfsig%3DChkAeAh8TxmuarzkHy0fl8IWw-vsyCimRd2NEg5hcHByb3ZhbF9zdGF0ZRILZGVzdGluYXRpb24SBXNvYWN1Eg9vYXV0aHJpc2t5c2NvcGU%26authuser%3Dunknown&gidl=EgIIAA"
+}
+[01/22/19, 21:20:35:594] info: SignInEpic: Page redirect
+{
+  "newURL": "https://accounts.google.com/CheckCookie?sarp=1&scc=0&chtml=LoginDoneHtml&continue=https%3A%2F%2Faccounts.google.com%2Fo%2Foauth2%2Fv2%2Fauth%3Fhd%3Dchef.io%26client_id%3D619872790197-0au3m58c2q0phgqbqqp4ka429ckusggt.apps.googleusercontent.com%26as%3DidSN8xDmsvU36O7_RCWYtw%26destination%3Dhttps%253A%252F%252Fslack.com%26approval_state%3D%2521ChR3ZkxnZFd2YTJpN1lZZEJHMGRWehIfSTY0cE5IbGV6Q2dhVUEyYUd3VDlRSnhBZHgtSWh4WQ%25E2%2588%2599APNbktkAAAAAXEkg2U-ZlECxfW8P_LtRifmkh4t9r5N0%26oauthgdpr%3D1%26xsrfsig%3DChkAeAh8TxmuarzkHy0fl8IWw-vsyCimRd2NEg5hcHByb3ZhbF9zdGF0ZRILZGVzdGluYXRpb24SBXNvYWN1Eg9vYXV0aHJpc2t5c2NvcGU%26authuser%3Dunknown&gidl=EgIIAA"
+}
+[01/22/19, 21:20:35:594] info: SignInEpic: Page redirect
+{
+  "newURL": "https://accounts.google.com/CheckCookie?sarp=1&scc=0&chtml=LoginDoneHtml&continue=https%3A%2F%2Faccounts.google.com%2Fo%2Foauth2%2Fv2%2Fauth%3Fhd%3Dchef.io%26client_id%3D619872790197-0au3m58c2q0phgqbqqp4ka429ckusggt.apps.googleusercontent.com%26as%3DidSN8xDmsvU36O7_RCWYtw%26destination%3Dhttps%253A%252F%252Fslack.com%26approval_state%3D%2521ChR3ZkxnZFd2YTJpN1lZZEJHMGRWehIfSTY0cE5IbGV6Q2dhVUEyYUd3VDlRSnhBZHgtSWh4WQ%25E2%2588%2599APNbktkAAAAAXEkg2U-ZlECxfW8P_LtRifmkh4t9r5N0%26oauthgdpr%3D1%26xsrfsig%3DChkAeAh8TxmuarzkHy0fl8IWw-vsyCimRd2NEg5hcHByb3ZhbF9zdGF0ZRILZGVzdGluYXRpb24SBXNvYWN1Eg9vYXV0aHJpc2t5c2NvcGU%26authuser%3Dunknown&gidl=EgIIAA"
+}
+[01/22/19, 21:20:35:675] info: SignInEpic: Page redirect
+{
+  "newURL": "https://accounts.google.com/o/oauth2/v2/auth?hd=chef.io&client_id=619872790197-0au3m58c2q0phgqbqqp4ka429ckusggt.apps.googleusercontent.com&as=idSN8xDmsvU36O7_RCWYtw&destination=https%3A%2F%2Fslack.com&approval_state=%21ChR3ZkxnZFd2YTJpN1lZZEJHMGRWehIfSTY0cE5IbGV6Q2dhVUEyYUd3VDlRSnhBZHgtSWh4WQ%E2%88%99APNbktkAAAAAXEkg2U-ZlECxfW8P_LtRifmkh4t9r5N0&oauthgdpr=1&xsrfsig=ChkAeAh8TxmuarzkHy0fl8IWw-vsyCimRd2NEg5hcHByb3ZhbF9zdGF0ZRILZGVzdGluYXRpb24SBXNvYWN1Eg9vYXV0aHJpc2t5c2NvcGU&authuser=0"
+}
+[01/22/19, 21:20:35:675] info: SignInEpic: Page redirect
+{
+  "newURL": "https://accounts.google.com/o/oauth2/v2/auth?hd=chef.io&client_id=619872790197-0au3m58c2q0phgqbqqp4ka429ckusggt.apps.googleusercontent.com&as=idSN8xDmsvU36O7_RCWYtw&destination=https%3A%2F%2Fslack.com&approval_state=%21ChR3ZkxnZFd2YTJpN1lZZEJHMGRWehIfSTY0cE5IbGV6Q2dhVUEyYUd3VDlRSnhBZHgtSWh4WQ%E2%88%99APNbktkAAAAAXEkg2U-ZlECxfW8P_LtRifmkh4t9r5N0&oauthgdpr=1&xsrfsig=ChkAeAh8TxmuarzkHy0fl8IWw-vsyCimRd2NEg5hcHByb3ZhbF9zdGF0ZRILZGVzdGluYXRpb24SBXNvYWN1Eg9vYXV0aHJpc2t5c2NvcGU&authuser=0"
+}
+[01/22/19, 21:20:35:676] info: SignInEpic: Page redirect
+{
+  "newURL": "https://accounts.google.com/o/oauth2/v2/auth?hd=chef.io&client_id=619872790197-0au3m58c2q0phgqbqqp4ka429ckusggt.apps.googleusercontent.com&as=idSN8xDmsvU36O7_RCWYtw&destination=https%3A%2F%2Fslack.com&approval_state=%21ChR3ZkxnZFd2YTJpN1lZZEJHMGRWehIfSTY0cE5IbGV6Q2dhVUEyYUd3VDlRSnhBZHgtSWh4WQ%E2%88%99APNbktkAAAAAXEkg2U-ZlECxfW8P_LtRifmkh4t9r5N0&oauthgdpr=1&xsrfsig=ChkAeAh8TxmuarzkHy0fl8IWw-vsyCimRd2NEg5hcHByb3ZhbF9zdGF0ZRILZGVzdGluYXRpb24SBXNvYWN1Eg9vYXV0aHJpc2t5c2NvcGU&authuser=0"
+}
+[01/22/19, 21:20:35:917] info: SignInEpic: Page redirect
+{
+  "newURL": "https://slack.com/sso/google?state=eyJzdGF0ZSI6InYzLjM1Njk4OTM4NDIubG9naW4uTDNOcFoyNXBiajl6YzJKZmMzVmpZMlZ6Y3oweEpuTnpZbDl5Wld4dloybHVQUT09LmEwNTc3ZTI1MGExNDBkOGFhNTI2MTU1NzExZDhhYzI3ZjNmODg3MWY4YzFlZDcxNzM2NWU3ZTYyMzI1NTZmMGEifQ%253D%253D&code=4/2wDdLNy5u28QcaXFK8p9vuiMY9YMbxrIT4kYIv1FBIWu-psPat-oBZ9-ZG3pP-aoZwTAYdI7NYuOEr8mtBG3oLI&scope=openid+email+profile+https://www.googleapis.com/auth/plus.me+https://www.googleapis.com/auth/userinfo.profile+https://www.googleapis.com/auth/userinfo.email&authuser=0&hd=chef.io&session_state=da86c7f436056356a5fde40bf33ac7ba63ed8022..73bb&prompt=none"
+}
+[01/22/19, 21:20:35:917] info: SignInEpic: Page redirect
+{
+  "newURL": "https://slack.com/sso/google?state=eyJzdGF0ZSI6InYzLjM1Njk4OTM4NDIubG9naW4uTDNOcFoyNXBiajl6YzJKZmMzVmpZMlZ6Y3oweEpuTnpZbDl5Wld4dloybHVQUT09LmEwNTc3ZTI1MGExNDBkOGFhNTI2MTU1NzExZDhhYzI3ZjNmODg3MWY4YzFlZDcxNzM2NWU3ZTYyMzI1NTZmMGEifQ%253D%253D&code=4/2wDdLNy5u28QcaXFK8p9vuiMY9YMbxrIT4kYIv1FBIWu-psPat-oBZ9-ZG3pP-aoZwTAYdI7NYuOEr8mtBG3oLI&scope=openid+email+profile+https://www.googleapis.com/auth/plus.me+https://www.googleapis.com/auth/userinfo.profile+https://www.googleapis.com/auth/userinfo.email&authuser=0&hd=chef.io&session_state=da86c7f436056356a5fde40bf33ac7ba63ed8022..73bb&prompt=none"
+}
+[01/22/19, 21:20:35:918] info: SignInEpic: Page redirect
+{
+  "newURL": "https://slack.com/sso/google?state=eyJzdGF0ZSI6InYzLjM1Njk4OTM4NDIubG9naW4uTDNOcFoyNXBiajl6YzJKZmMzVmpZMlZ6Y3oweEpuTnpZbDl5Wld4dloybHVQUT09LmEwNTc3ZTI1MGExNDBkOGFhNTI2MTU1NzExZDhhYzI3ZjNmODg3MWY4YzFlZDcxNzM2NWU3ZTYyMzI1NTZmMGEifQ%253D%253D&code=4/2wDdLNy5u28QcaXFK8p9vuiMY9YMbxrIT4kYIv1FBIWu-psPat-oBZ9-ZG3pP-aoZwTAYdI7NYuOEr8mtBG3oLI&scope=openid+email+profile+https://www.googleapis.com/auth/plus.me+https://www.googleapis.com/auth/userinfo.profile+https://www.googleapis.com/auth/userinfo.email&authuser=0&hd=chef.io&session_state=da86c7f436056356a5fde40bf33ac7ba63ed8022..73bb&prompt=none"
+}
+[01/22/19, 21:20:36:073] info: SignInEpic: Page redirect
+{
+  "newURL": "https://slack.com/checkcookie?redir=https%3A%2F%2Fchefio.slack.com%2Fsignin%3Fssb_success%3D1%26ssb_relogin%3D"
+}
+[01/22/19, 21:20:36:074] info: SignInEpic: Page redirect
+{
+  "newURL": "https://slack.com/checkcookie?redir=https%3A%2F%2Fchefio.slack.com%2Fsignin%3Fssb_success%3D1%26ssb_relogin%3D"
+}
+[01/22/19, 21:20:36:074] info: SignInEpic: Page redirect
+{
+  "newURL": "https://slack.com/checkcookie?redir=https%3A%2F%2Fchefio.slack.com%2Fsignin%3Fssb_success%3D1%26ssb_relogin%3D"
+}
+[01/22/19, 21:20:36:134] info: SignInEpic: Page redirect
+{
+  "newURL": "https://chefio.slack.com/signin?ssb_success=1&ssb_relogin="
+}
+[01/22/19, 21:20:36:135] info: Store: SIGN_IN_COMPLETE
+[01/22/19, 21:20:36:138] info: SignInEpic: Page redirect
+{
+  "newURL": "https://chefio.slack.com/signin?ssb_success=1&ssb_relogin="
+}
+[01/22/19, 21:20:36:139] info: SignInEpic: Page redirect
+{
+  "newURL": "https://chefio.slack.com/signin?ssb_success=1&ssb_relogin="
+}
+[01/22/19, 21:20:36:327] info: SignInEpic: Received team(s) from the webapp
+[01/22/19, 21:20:36:328] info: SignInEpic: Got signal!
+[01/22/19, 21:20:36:328] info: Store: SIGN_IN_CANCELED
+[01/22/19, 21:20:36:329] info: SignInEpic: Sign-in window closed
+[01/22/19, 21:20:36:329] info: Store: REMOVE_WINDOW 3
+[01/22/19, 21:20:36:333] info: maybeQuitAppAction
+{
+  "canceledSignIn": false,
+  "hasNoTeams": true
+}
+[01/22/19, 21:20:36:334] info: SignInEpic: End of the road
+{
+  "action": "ADD_NEW_TEAM"
+}
+[01/22/19, 21:20:36:334] info: Store: ADD_NEW_TEAM
+{
+  "id": "U4BNAQJ3H",
+  "name": "[REDACTED]",
+  "team_id": "T03GRS9QS",
+  "team_name": "[REDACTED]",
+  "team_url": "[REDACTED]"
+}
+[01/22/19, 21:20:36:337] info: BrowserViewManager: Creating views for new teams
+{
+  "newTeamIds": [
+    "T03GRS9QS"
+  ]
+}
+[01/22/19, 21:20:36:337] info: BrowserViewManager: Activating BrowserView
+{
+  "teamId": "T03GRS9QS"
+}
+[01/22/19, 21:20:36:338] info: BrowserViewManager: Creating BrowserView
+{
+  "teamId": "T03GRS9QS"
+}
+[01/22/19, 21:20:36:339] info: WebContentsMediator: Attaching to new webContents
+[01/22/19, 21:20:36:340] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 4,
+  "teamId": "T03GRS9QS",
+  "state": "unloaded"
+}
+[01/22/19, 21:20:36:344] info: Background Clients Update: 
++-----------+-------+------------+
+|           | Full  | Background |
+|-----------+-------+------------+
+| T03GRS9QS | start |            |
++-----------+-------+------------+
+[01/22/19, 21:20:36:352] info: BrowserViewManager: Activating BrowserView
+{
+  "teamId": "T03GRS9QS"
+}
+[01/22/19, 21:20:36:354] info: Background Clients Update: 
++-----------+-------+------------+
+|           | Full  | Background |
+|-----------+-------+------------+
+| T03GRS9QS | start |            |
++-----------+-------+------------+
+[01/22/19, 21:20:36:758] info: Team boot count
+{
+  "count": 1
+}
+[01/22/19, 21:20:37:357] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    636,
+    1401
+  ],
+  "position": [
+    2082,
+    18
+  ],
+  "isMaximized": false
+}
+[01/22/19, 21:20:39:543] info: WebContents LifeCycle: webContents:4 from 'unloaded' to 'loaded' took 3193 ms
+[01/22/19, 21:20:39:543] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 4,
+  "state": "loaded",
+  "teamId": "T03GRS9QS"
+}
+[01/22/19, 21:20:39:544] info: Background Clients Update: 
++-----------+---------+------------+
+|           | Full    | Background |
+|-----------+---------+------------+
+| T03GRS9QS | loading |            |
++-----------+---------+------------+
+[01/22/19, 21:20:39:691] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": true,
+  "teamId": "T03GRS9QS"
+}
+[01/22/19, 21:20:40:097] info: Store: SELECT_CHANNEL C03GRS9SA
+[01/22/19, 21:20:40:100] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T03GRS9QS"
+}
+[01/22/19, 21:20:40:110] info: Store: UPDATE_SETTINGS
+{
+  "locale": "en-US"
+}
+[01/22/19, 21:20:40:119] info: Store: UPDATE_TEAM_THEME
+{
+  "teamId": "T03GRS9QS",
+  "theme": {
+    "active_item": "#1264A3",
+    "active_item_text": "#FFFFFF",
+    "active_presence": "#2BAC76",
+    "badge": "#CD2553",
+    "column_bg": "#3F0E40",
+    "hover_item": "#350D36",
+    "menu_bg": "#350d36",
+    "text_color": "#FFFFFF"
+  }
+}
+[01/22/19, 21:20:40:365] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://avatars.slack-edge.com/2015-06-25/6877457570_fd634345df76a7c84cb8_102.jpg",
+    "image_132": "https://avatars.slack-edge.com/2015-06-25/6877457570_fd634345df76a7c84cb8_132.jpg",
+    "image_230": "https://avatars.slack-edge.com/2015-06-25/6877457570_fd634345df76a7c84cb8_132.jpg",
+    "image_34": "https://avatars.slack-edge.com/2015-06-25/6877457570_fd634345df76a7c84cb8_34.jpg",
+    "image_44": "https://avatars.slack-edge.com/2015-06-25/6877457570_fd634345df76a7c84cb8_44.jpg",
+    "image_68": "https://avatars.slack-edge.com/2015-06-25/6877457570_fd634345df76a7c84cb8_68.jpg",
+    "image_88": "https://avatars.slack-edge.com/2015-06-25/6877457570_fd634345df76a7c84cb8_88.jpg",
+    "image_original": "https://avatars.slack-edge.com/2015-06-25/6877457570_fd634345df76a7c84cb8_original.jpg"
+  },
+  "teamId": "T03GRS9QS"
+}
+[01/22/19, 21:20:40:494] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T03GRS9QS"
+}
+[01/22/19, 21:20:40:504] info: WebContents LifeCycle: webContents:4 from 'loaded' to 'webapp-loaded' took 961 ms
+[01/22/19, 21:20:40:504] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 4,
+  "state": "webapp-loaded",
+  "teamId": "T03GRS9QS"
+}
+[01/22/19, 21:20:40:505] info: Background Clients Update: 
++-----------+-------+------------+
+|           | Full  | Background |
+|-----------+-------+------------+
+| T03GRS9QS | ready |            |
++-----------+-------+------------+
+[01/22/19, 21:20:40:506] info: Store: UPDATE_SETTINGS
+{
+  "sandboxSigninWindow": true
+}
+[01/22/19, 21:20:40:862] info: Store: STORE_ENTERPRISE_ID_PAIR
+{
+  "teamId": "T03GRS9QS",
+  "enterpriseId": null
+}
+[01/22/19, 21:20:40:864] info: Store: STORE_API_TOKEN
+{
+  "token": "xoxs-⋯",
+  "teamId": "T03GRS9QS"
+}
+[01/22/19, 21:20:58:531] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    1436,
+    2521
+  ],
+  "position": [
+    4002,
+    18
+  ],
+  "isMaximized": false
+}
+[01/22/19, 21:21:08:408] info: Store: SHOW_LOGIN_DIALOG
+{}
+[01/22/19, 21:21:08:411] info: WebContentsMediator: Attaching to new webContents
+[01/22/19, 21:21:08:414] info: Store: ADD_WINDOW
+{
+  "id": 4,
+  "type": "sign-in"
+}
+[01/22/19, 21:21:08:416] info: SignInEpic: Loading URL in new window https://slack.com/signin
+[01/22/19, 21:21:20:472] info: Store: SIGN_IN_CANCELED
+[01/22/19, 21:21:20:474] info: SignInEpic: Sign-in window closed
+[01/22/19, 21:21:20:474] info: maybeQuitAppAction
+{
+  "canceledSignIn": true,
+  "hasNoTeams": false
+}
+[01/22/19, 21:21:20:474] info: SignInEpic: End of the road
+{
+  "action": "none"
+}
+[01/22/19, 21:21:20:475] info: Store: REMOVE_WINDOW 4
+[01/22/19, 21:21:40:272] info: Store: SELECT_CHANNEL CAJUGFN72
+[01/22/19, 21:24:29:374] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    1436,
+    1251
+  ],
+  "position": [
+    4002,
+    18
+  ],
+  "isMaximized": false
+}
+[01/22/19, 21:24:48:143] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    1436,
+    2521
+  ],
+  "position": [
+    4002,
+    18
+  ],
+  "isMaximized": false
+}

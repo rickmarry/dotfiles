@@ -1,9 +1,18 @@
-2019/01/22-16:38:14.016 965 Reusing MANIFEST /home/rickm/.config/chromium/Default/Session Storage/MANIFEST-000001
-2019/01/22-16:38:14.016 965 Recovering log #15
-2019/01/22-16:38:14.016 965 Reusing old log /home/rickm/.config/chromium/Default/Session Storage/000015.log 
-2019/01/22-16:41:14.094 1562 Level-0 table #20: started
-2019/01/22-16:41:14.104 1562 Level-0 table #20: 19647 bytes OK
-2019/01/22-16:41:14.112 1562 Delete type=0 #15
-2019/01/22-16:43:54.116 1562 Level-0 table #22: started
-2019/01/22-16:43:54.130 1562 Level-0 table #22: 28040 bytes OK
-2019/01/22-16:43:54.138 1562 Delete type=0 #19
+2019/01/22-16:46:49.124 936 Reusing MANIFEST /home/rickm/.config/chromium/Default/Session Storage/MANIFEST-000001
+2019/01/22-16:46:49.124 936 Recovering log #21
+2019/01/22-16:46:49.124 936 Reusing old log /home/rickm/.config/chromium/Default/Session Storage/000021.log 
+2019/01/22-16:48:49.266 1773 Level-0 table #25: started
+2019/01/22-16:48:49.277 1773 Level-0 table #25: 17396 bytes OK
+2019/01/22-16:48:49.286 1773 Delete type=0 #21
+2019/01/22-16:51:49.276 1773 Level-0 table #27: started
+2019/01/22-16:51:49.286 1773 Level-0 table #27: 17857 bytes OK
+2019/01/22-16:51:49.293 1773 Delete type=0 #24
+2019/01/22-16:51:49.293 1773 Compacting 4@0 + 1@1 files
+2019/01/22-16:51:49.308 1773 Generated table #28@0: 249 keys, 120370 bytes
+2019/01/22-16:51:49.308 1773 Compacted 4@0 + 1@1 files => 120370 bytes
+2019/01/22-16:51:49.316 1773 compacted to: files[ 0 1 1 0 0 0 0 ]
+2019/01/22-16:51:49.316 1773 Delete type=2 #22
+2019/01/22-16:51:49.316 1773 Delete type=2 #27
+2019/01/22-16:51:49.316 1773 Delete type=2 #20
+2019/01/22-16:51:49.316 1773 Delete type=2 #17
+2019/01/22-16:51:49.316 1773 Delete type=2 #25

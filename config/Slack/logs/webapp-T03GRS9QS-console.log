@@ -1,0 +1,379 @@
+info: ╔═════════════════════════════════════════════════════════════════════════════╗
+info: ║      Slack 3.3.3, linux 4.14.78-1-lts on x64 at 01/22/19, 21:20:36:350      ║
+info: ╚═════════════════════════════════════════════════════════════════════════════╝
+info: JQMIGRATE: Migrate is installed with logging active, version 3.0.0
+info: Jan-22 21:20:39.122 [BOOT] booted! pri:0 version:1548202726 start_ms:1548210037505 (1617ms ago)
+info: Jan-22 21:20:39.134 [BOOT] Starting incremental boot (early)
+info: Jan-22 21:20:39.136 [BOOT] Starting data fetch (early)
+info: Jan-22 21:20:39.140 [API-Q] (T03GRS9QS) e7a21ee7-1548210039.138 client.boot called with reason: no_reason_provided
+info: Jan-22 21:20:39.140 [API-Q] (T03GRS9QS) e7a21ee7-1548210039.138 client.boot is ENQUEUED
+info: Jan-22 21:20:39.141 [API-Q] (T03GRS9QS) e7a21ee7-1548210039.138 client.boot is ACTIVE
+warn: Jan-22 21:20:39.225 error getActiveModelOb found no ob
+warn: Jan-22 21:20:39.225 TS.boot_data.channel_id: undefined
+warn: Jan-22 21:20:39.225 TS.boot_data.im_id: undefined
+warn: Jan-22 21:20:39.225 TS.boot_data.group_id: undefined
+warn: Jan-22 21:20:39.225 error getActiveModelOb found no ob
+warn: Jan-22 21:20:39.225 TS.boot_data.channel_id: undefined
+warn: Jan-22 21:20:39.225 TS.boot_data.im_id: undefined
+warn: Jan-22 21:20:39.225 TS.boot_data.group_id: undefined
+info: SoundManager 2: No Flash detected. Trying HTML5-only mode.
+info: SoundManager V2.97a.20170601 (HTML5-only mode)
+info: SoundManager 2 HTML5 support: mp3 = true, mp4 = true, ogg = true, opus = true, wav = true, flac = true
+info: SoundManager 2: Ready. ✓
+info: Jan-22 21:20:39.546 [API-Q] (T03GRS9QS) e7a21ee7-1548210039.138 client.boot is RESOLVED
+info: Jan-22 21:20:39.562 [SOCKET-MANAGER] (T03GRS9QS) Changing from never_connected to prov_connect
+info: Jan-22 21:20:39.562 [SOCKET-MANAGER] (T03GRS9QS) will stay in prov_connect state for up to 10000 ms
+info: Jan-22 21:20:39.563 [SOCKET-MANAGER] (T03GRS9QS) Changing from prov_connect to prov_connecting
+info: Jan-22 21:20:39.563 [SOCKET-MANAGER] (T03GRS9QS) will stay in prov_connecting state for up to 35000 ms
+info: Jan-22 21:20:39.569 [API-Q] (T03GRS9QS) e7a21ee7-1548210039.569 users.counts called with reason: users-counts-api/fetchUsersCounts
+info: Jan-22 21:20:39.569 [API-Q] (T03GRS9QS) e7a21ee7-1548210039.569 users.counts is ENQUEUED
+info: Jan-22 21:20:39.569 [API-Q] (T03GRS9QS) e7a21ee7-1548210039.569 users.counts is ACTIVE
+warn: Jan-22 21:20:39.571 Desktop: 'desktop.accessibility.isAccessibilitySupportEnabled' is missing or not a function
+info: Jan-22 21:20:39.688 [API-Q] (T03GRS9QS) e7a21ee7-1548210039.687 apps.actions.list called with reason: no_reason_provided
+info: Jan-22 21:20:39.688 [API-Q] (T03GRS9QS) e7a21ee7-1548210039.687 apps.actions.list is ENQUEUED
+info: Jan-22 21:20:39.688 [API-Q] (T03GRS9QS) e7a21ee7-1548210039.687 apps.actions.list is ACTIVE
+info: Jan-22 21:20:39.833 [API-Q] (T03GRS9QS) e7a21ee7-1548210039.833 apps.list called with reason: no_reason_provided
+info: Jan-22 21:20:39.834 [API-Q] (T03GRS9QS) e7a21ee7-1548210039.833 apps.list is ENQUEUED
+info: Jan-22 21:20:39.834 [API-Q] (T03GRS9QS) e7a21ee7-1548210039.833 apps.list is ACTIVE
+info: Jan-22 21:20:39.835 [API-Q] (T03GRS9QS) e7a21ee7-1548210039.835 commands.list called with reason: no_reason_provided
+info: Jan-22 21:20:39.835 [API-Q] (T03GRS9QS) e7a21ee7-1548210039.835 commands.list is ENQUEUED
+info: Jan-22 21:20:39.835 [API-Q] (T03GRS9QS) e7a21ee7-1548210039.835 commands.list is ACTIVE
+info: Jan-22 21:20:39.835 [API-Q] (T03GRS9QS) e7a21ee7-1548210039.835 i18n.translations.get called with reason: no_reason_provided
+info: Jan-22 21:20:39.836 [API-Q] (T03GRS9QS) e7a21ee7-1548210039.835 i18n.translations.get is ENQUEUED
+info: Jan-22 21:20:39.836 [API-Q] (T03GRS9QS) e7a21ee7-1548210039.835 i18n.translations.get is ACTIVE
+warn: Jan-22 21:20:39.836 updateTeamIcon was called, but missing an image to set
+info: Jan-22 21:20:39.841 [API-Q] (T03GRS9QS) e7a21ee7-1548210039.841 emoji.list called with reason: no_reason_provided
+info: Jan-22 21:20:39.841 [API-Q] (T03GRS9QS) e7a21ee7-1548210039.841 emoji.list is ENQUEUED
+info: Jan-22 21:20:39.842 [API-Q] (T03GRS9QS) e7a21ee7-1548210039.841 emoji.list is ACTIVE
+info: Jan-22 21:20:39.905 [API-Q] (T03GRS9QS) e7a21ee7-1548210039.569 users.counts is RESOLVED
+warn: Jan-22 21:20:39.907 COUNTS (T03GRS9QS) Unknown channel C03GRS9SN in applyCountsToChannels
+warn: Jan-22 21:20:39.907 COUNTS (T03GRS9QS) Unknown channel C074S2A94 in applyCountsToChannels
+warn: Jan-22 21:20:39.907 COUNTS (T03GRS9QS) Unknown channel C07BR5TQU in applyCountsToChannels
+warn: Jan-22 21:20:39.907 COUNTS (T03GRS9QS) Unknown channel C07HTQ5HD in applyCountsToChannels
+warn: Jan-22 21:20:39.907 COUNTS (T03GRS9QS) Unknown channel C07HXE316 in applyCountsToChannels
+warn: Jan-22 21:20:39.907 COUNTS (T03GRS9QS) Unknown channel C07JNAUF2 in applyCountsToChannels
+warn: Jan-22 21:20:39.907 COUNTS (T03GRS9QS) Unknown channel C07JNAVPA in applyCountsToChannels
+warn: Jan-22 21:20:39.907 COUNTS (T03GRS9QS) Unknown channel C07JNP4LU in applyCountsToChannels
+warn: Jan-22 21:20:39.907 COUNTS (T03GRS9QS) Unknown channel C07JNV51R in applyCountsToChannels
+warn: Jan-22 21:20:39.907 COUNTS (T03GRS9QS) Unknown channel C07MGHQBS in applyCountsToChannels
+warn: Jan-22 21:20:39.907 COUNTS (T03GRS9QS) Unknown channel C07P2BG2E in applyCountsToChannels
+warn: Jan-22 21:20:39.907 COUNTS (T03GRS9QS) Unknown channel C07P3SRPG in applyCountsToChannels
+warn: Jan-22 21:20:39.908 COUNTS (T03GRS9QS) Unknown channel C07QJLL9L in applyCountsToChannels
+warn: Jan-22 21:20:39.908 COUNTS (T03GRS9QS) Unknown channel C0808K15Y in applyCountsToChannels
+warn: Jan-22 21:20:39.908 COUNTS (T03GRS9QS) Unknown channel C084FEB1R in applyCountsToChannels
+warn: Jan-22 21:20:39.908 COUNTS (T03GRS9QS) Unknown channel C08K8CD9Q in applyCountsToChannels
+warn: Jan-22 21:20:39.908 COUNTS (T03GRS9QS) Unknown channel C09U1TA1Z in applyCountsToChannels
+warn: Jan-22 21:20:39.908 COUNTS (T03GRS9QS) Unknown channel C0AU6NYE7 in applyCountsToChannels
+warn: Jan-22 21:20:39.908 COUNTS (T03GRS9QS) Unknown channel C0DP7SAGY in applyCountsToChannels
+warn: Jan-22 21:20:39.908 COUNTS (T03GRS9QS) Unknown channel C0J23Q5RS in applyCountsToChannels
+warn: Jan-22 21:20:39.908 COUNTS (T03GRS9QS) Unknown channel C10DCLU1Y in applyCountsToChannels
+warn: Jan-22 21:20:39.908 COUNTS (T03GRS9QS) Unknown channel C5ZMYKX7X in applyCountsToChannels
+warn: Jan-22 21:20:39.908 COUNTS (T03GRS9QS) Unknown channel C61F9HHKK in applyCountsToChannels
+warn: Jan-22 21:20:39.908 COUNTS (T03GRS9QS) Unknown channel C6JED4R8W in applyCountsToChannels
+warn: Jan-22 21:20:39.908 COUNTS (T03GRS9QS) Unknown channel C6JKUSDPG in applyCountsToChannels
+warn: Jan-22 21:20:39.908 COUNTS (T03GRS9QS) Unknown channel C6UKR7SHZ in applyCountsToChannels
+warn: Jan-22 21:20:39.908 COUNTS (T03GRS9QS) Unknown channel C6WDLAKPB in applyCountsToChannels
+warn: Jan-22 21:20:39.908 COUNTS (T03GRS9QS) Unknown channel C7J83SVB4 in applyCountsToChannels
+warn: Jan-22 21:20:39.908 COUNTS (T03GRS9QS) Unknown channel C8CD37AP3 in applyCountsToChannels
+warn: Jan-22 21:20:39.908 COUNTS (T03GRS9QS) Unknown channel CAJUGFN72 in applyCountsToChannels
+warn: Jan-22 21:20:39.909 COUNTS (T03GRS9QS) Unknown channel CARK1CBNX in applyCountsToChannels
+warn: Jan-22 21:20:39.909 COUNTS (T03GRS9QS) Unknown channel CDMAN5ZHR in applyCountsToChannels
+warn: Jan-22 21:20:39.909 COUNTS (T03GRS9QS) Unknown channel CFBEQQ2RF in applyCountsToChannels
+warn: Jan-22 21:20:39.909 COUNTS (T03GRS9QS) Unknown channel CFCE1NQ9W in applyCountsToChannels
+warn: Jan-22 21:20:39.909 COUNTS (T03GRS9QS) Unknown channel G5G29HE21 in applyCountsToChannels
+warn: Jan-22 21:20:39.909 COUNTS (T03GRS9QS) Unknown channel G6A4WABTJ in applyCountsToChannels
+warn: Jan-22 21:20:39.909 COUNTS (T03GRS9QS) Unknown channel G77401K54 in applyCountsToChannels
+warn: Jan-22 21:20:39.909 COUNTS (T03GRS9QS) Unknown channel D4ABF875X in applyCountsToChannels
+warn: Jan-22 21:20:39.909 COUNTS (T03GRS9QS) Unknown channel D4B0SGL6P in applyCountsToChannels
+warn: Jan-22 21:20:39.909 COUNTS (T03GRS9QS) Unknown channel D4B3ZB0AY in applyCountsToChannels
+warn: Jan-22 21:20:39.909 COUNTS (T03GRS9QS) Unknown channel D4B45QJTT in applyCountsToChannels
+warn: Jan-22 21:20:39.909 COUNTS (T03GRS9QS) Unknown channel D4BFMLX6F in applyCountsToChannels
+warn: Jan-22 21:20:39.909 COUNTS (T03GRS9QS) Unknown channel D4CAMEAP2 in applyCountsToChannels
+warn: Jan-22 21:20:39.909 COUNTS (T03GRS9QS) Unknown channel D4CF580ET in applyCountsToChannels
+warn: Jan-22 21:20:39.909 COUNTS (T03GRS9QS) Unknown channel D4LPWU8J3 in applyCountsToChannels
+warn: Jan-22 21:20:39.909 COUNTS (T03GRS9QS) Unknown channel D999F8NP4 in applyCountsToChannels
+warn: Jan-22 21:20:39.909 COUNTS (T03GRS9QS) Unknown channel D9A1K1108 in applyCountsToChannels
+warn: Jan-22 21:20:39.909 COUNTS (T03GRS9QS) Unknown channel DE9F4AHAB in applyCountsToChannels
+warn: Jan-22 21:20:39.909 COUNTS (T03GRS9QS) Unknown channel DFF4MP0LU in applyCountsToChannels
+warn: Jan-22 21:20:39.910 COUNTS (T03GRS9QS) Unknown channel G6821LSTZ in applyCountsToChannels
+warn: Jan-22 21:20:39.910 COUNTS (T03GRS9QS) Unknown channel GFGPWDM6Y in applyCountsToChannels
+info: Jan-22 21:20:39.923 [COUNTS] (T03GRS9QS) Completed counts processing
+info: Jan-22 21:20:39.924 [SOCKET-MANAGER] (T03GRS9QS) Changing from prov_connecting to prov_connected
+info: Jan-22 21:20:39.924 [SOCKET-MANAGER] (T03GRS9QS) will stay in prov_connected state for up to 60000 ms
+info: Jan-22 21:20:39.927 [API-Q] (T03GRS9QS) e7a21ee7-1548210039.687 apps.actions.list is RESOLVED
+info: Jan-22 21:20:39.929 [UNKNOWN-FETCH-MANAGER] (T03GRS9QS) requesting T03GRS9QS (1)
+info: Jan-22 21:20:39.929 [UNKNOWN-FETCH-MANAGER] (T03GRS9QS) received T03GRS9QS (1)
+info: Jan-22 21:20:39.932 [UNKNOWN-FETCH-MANAGER] (T03GRS9QS) requesting U4BNAQJ3H,U1PC8G64B,U5321R3RU,U6VS49VST,U6SS0MBD3,UCQ1SBPSM,UCQCNRJJ0,U06HA477D,U07J4SL48,USLACKBOT,U07KHSG4T,U07LN3ZQF,U07J5AB0S,U0K7P7RED,U4EF27M98,U07TCNH8V,U79HJHB4P,U07HXLH4L,U07K7TGJ2 (1)
+info: Jan-22 21:20:39.937 [UNKNOWN-FETCH-MANAGER] (T03GRS9QS) requesting C03GRS9SA,C03GRS9SN,C074S2A94,C07BR5TQU,C07HTQ5HD,C07HXE316,C07JNAUF2,C07JNAVPA,C07JNP4LU,C07JNV51R,C07MGHQBS,C07P2BG2E,C07P3SRPG,C07QJLL9L,C0808K15Y,C084FEB1R,C08K8CD9Q,C09U1TA1Z,C0AU6NYE7,C0DP7SAGY,C0J23Q5RS,C10DCLU1Y,C5ZMYKX7X,C61F9HHKK,C6JED4R8W,C6JKUSDPG,C6UKR7SHZ,C6WDLAKPB,C7J83SVB4,C8CD37AP3,CAJUGFN72,CARK1CBNX,CDMAN5ZHR,CFBEQQ2RF,CFCE1NQ9W,G5G29HE21,G6A4WABTJ,G77401K54,D4ABF875X,D4B0SGL6P,D4B3ZB0AY,D4B45QJTT,D4BFMLX6F,D4CAMEAP2,D4CF580ET,D4LPWU8J3,D999F8NP4,D9A1K1108,DE9F4AHAB,DFF4MP0LU,G6821LSTZ,GFGPWDM6Y (1)
+info: Jan-22 21:20:39.938 [UNKNOWN-FETCH-MANAGER] (T03GRS9QS) received C03GRS9SA,C03GRS9SN,C074S2A94,C07BR5TQU,C07HTQ5HD,C07HXE316,C07JNAUF2,C07JNAVPA,C07JNP4LU,C07JNV51R,C07MGHQBS,C07P2BG2E,C07P3SRPG,C07QJLL9L,C0808K15Y,C084FEB1R,C08K8CD9Q,C09U1TA1Z,C0AU6NYE7,C0DP7SAGY,C0J23Q5RS,C10DCLU1Y,C5ZMYKX7X,C61F9HHKK,C6JED4R8W,C6JKUSDPG,C6UKR7SHZ,C6WDLAKPB,C7J83SVB4,C8CD37AP3,CAJUGFN72,CARK1CBNX,CDMAN5ZHR,CFBEQQ2RF,CFCE1NQ9W,G5G29HE21,G6A4WABTJ,G77401K54,D4ABF875X,D4B0SGL6P,D4B3ZB0AY,D4B45QJTT,D4BFMLX6F,D4CAMEAP2,D4CF580ET,D4LPWU8J3,D999F8NP4,D9A1K1108,DE9F4AHAB,DFF4MP0LU,G6821LSTZ,GFGPWDM6Y (1)
+info: Jan-22 21:20:39.947 [API-Q] (T03GRS9QS) e7a21ee7-1548210039.835 commands.list is RESOLVED
+info: Jan-22 21:20:39.948 [API-Q] (T03GRS9QS) e7a21ee7-1548210039.835 i18n.translations.get is RESOLVED
+info: Jan-22 21:20:39.952 [API-Q] (T03GRS9QS) e7a21ee7-1548210039.841 emoji.list is RESOLVED
+info: Jan-22 21:20:40.099 [BOOT] Finalizing incremental boot
+info: Jan-22 21:20:40.106 [METRICS] Starting timers for metrics collection
+info: Jan-22 21:20:40.347 [BOOT] Completed incremental boot
+info: Jan-22 21:20:40.349 [COUNTS] (T03GRS9QS) Updated unread_cnt for C03GRS9SA: 0
+info: Jan-22 21:20:40.360 [SWITCH-TO-CHANNEL] (T03GRS9QS) Switching to C03GRS9SA at end
+info: Jan-22 21:20:40.364 [API-Q] (T03GRS9QS) e7a21ee7-1548210040.364 apps.list called with reason: no_reason_provided
+info: Jan-22 21:20:40.364 [API-Q] (T03GRS9QS) e7a21ee7-1548210040.364 apps.list is ENQUEUED
+info: Jan-22 21:20:40.364 [API-Q] (T03GRS9QS) e7a21ee7-1548210040.364 apps.list is ACTIVE
+info: Jan-22 21:20:40.494 [BOOT] _maybeFinalizeOrOpenConnectionToMS will finalize SocketManager
+info: Jan-22 21:20:40.494 [SOCKET-MANAGER] (T03GRS9QS) Changing from prov_connected to prov_finalize
+info: Jan-22 21:20:40.494 [SOCKET-MANAGER] (T03GRS9QS) will stay in prov_finalize state for up to 10000 ms
+info: Jan-22 21:20:40.494 [SOCKET-MANAGER] (T03GRS9QS) Changing from prov_finalize to prov_finalizing
+info: Jan-22 21:20:40.494 [SOCKET-MANAGER] (T03GRS9QS) will stay in prov_finalizing state for up to 10000 ms
+info: Jan-22 21:20:40.495 [SOCKET-MANAGER] (T03GRS9QS) Changing from prov_finalizing to connected
+info: Jan-22 21:20:40.495 [SOCKET-MANAGER] (T03GRS9QS) will stay in connected state for up to Infinity ms
+info: Jan-22 21:20:40.495 [BOOT] _maybeFinalizeOrOpenConnectionToMS did finalize SocketManager
+info: Jan-22 21:20:40.496 [BOOT] Finished first boot 940 ms after DOM ready
+info: Jan-22 21:20:40.504 [API-Q] (T03GRS9QS) e7a21ee7-1548210040.503 help.issues.list called with reason: no_reason_provided
+info: Jan-22 21:20:40.504 [API-Q] (T03GRS9QS) e7a21ee7-1548210040.503 help.issues.list is ENQUEUED
+info: Jan-22 21:20:40.504 [API-Q] (T03GRS9QS) e7a21ee7-1548210040.503 help.issues.list is ACTIVE
+info: Jan-22 21:20:40.505 [API-Q] (T03GRS9QS) e7a21ee7-1548210040.505 dnd.teamInfo called with reason: no_reason_provided
+info: Jan-22 21:20:40.505 [API-Q] (T03GRS9QS) e7a21ee7-1548210040.505 dnd.teamInfo is ENQUEUED
+info: Jan-22 21:20:40.505 [API-Q] (T03GRS9QS) e7a21ee7-1548210040.505 dnd.teamInfo is ACTIVE
+info: Jan-22 21:20:40.507 [INFO] MSConnected: 
+info: Jan-22 21:20:40.519 [INFO] legacyCheckForOldImsToClose might close some. this_too_many:3
+info: Jan-22 21:20:40.536 [INFO] legacyCheckForOldImsToClose found no candidates for closing
+info: Jan-22 21:20:40.547 [API-Q] (T03GRS9QS) e7a21ee7-1548210040.547 users.counts called with reason: users-counts-api/fetchUsersCounts
+info: Jan-22 21:20:40.547 [API-Q] (T03GRS9QS) e7a21ee7-1548210040.547 users.counts is ENQUEUED
+info: Jan-22 21:20:40.548 [API-Q] (T03GRS9QS) e7a21ee7-1548210040.547 users.counts is ACTIVE
+info: Jan-22 21:20:40.556 [INFO] Team pref "display_email_addresses" -> true
+info: Jan-22 21:20:40.556 [INFO] display_email_addresses check: pref enabled, but 0 email fields found in TS.model.members.
+info: Jan-22 21:20:40.566 [API-Q] (T03GRS9QS) e7a21ee7-1548210040.566 promo.banner called with reason: no_reason_provided
+info: Jan-22 21:20:40.566 [API-Q] (T03GRS9QS) e7a21ee7-1548210040.566 promo.banner is ENQUEUED
+info: Jan-22 21:20:40.567 [API-Q] (T03GRS9QS) e7a21ee7-1548210040.566 promo.banner is ACTIVE
+info: Jan-22 21:20:40.726 [HISTORY-FETCH] (T03GRS9QS) Fetching history for message pane: C03GRS9SA oldest: 1548178703.624300 latest: null
+info: Jan-22 21:20:40.727 [API-Q] (T03GRS9QS) e7a21ee7-1548210040.727 conversations.history called with reason: message-pane/requestHistory
+info: Jan-22 21:20:40.727 [API-Q] (T03GRS9QS) e7a21ee7-1548210040.727 conversations.history is ENQUEUED
+info: Jan-22 21:20:40.728 [API-Q] (T03GRS9QS) e7a21ee7-1548210040.727 conversations.history is ACTIVE
+info: Jan-22 21:20:40.745 [MESSAGE-LIST] (T03GRS9QS) componentWillReceiveProps isLoading: false isLoadingOlder: false timestamps: 48
+info: Jan-22 21:20:40.850 [API-Q] (T03GRS9QS) e7a21ee7-1548210039.833 apps.list is RESOLVED
+info: Jan-22 21:20:40.860 [API-Q] (T03GRS9QS) e7a21ee7-1548210040.364 apps.list is RESOLVED
+info: Jan-22 21:20:40.863 [API-Q] (T03GRS9QS) e7a21ee7-1548210040.503 help.issues.list is RESOLVED
+info: Jan-22 21:20:40.865 [CHECK-UNREADS] (T03GRS9QS) Checking unreads after fully booted
+info: Jan-22 21:20:40.866 [CHECK-UNREADS] (T03GRS9QS) Not marking C03GRS9SA because attention not on chat (window_not_focused)
+info: Jan-22 21:20:40.866 [API-Q] (T03GRS9QS) e7a21ee7-1548210040.505 dnd.teamInfo is RESOLVED
+info: Jan-22 21:20:40.868 [API-Q] (T03GRS9QS) e7a21ee7-1548210040.566 promo.banner is RESOLVED
+info: Jan-22 21:20:40.869 [API-Q] (T03GRS9QS) e7a21ee7-1548210040.547 users.counts is RESOLVED
+info: Jan-22 21:20:40.888 [COUNTS] (T03GRS9QS) Completed counts processing
+info: Jan-22 21:20:40.908 [API-Q] (T03GRS9QS) e7a21ee7-1548210040.727 conversations.history is RESOLVED
+info: Jan-22 21:20:40.910 [UNREAD-COUNTS] (T03GRS9QS) Counting unreads in C03GRS9SA because (1) timestamps added
+info: Jan-22 21:20:40.911 [UNREAD-COUNTS] (T03GRS9QS) Checking unreads in C03GRS9SA after a new message
+info: Jan-22 21:20:40.911 [CHECK-UNREADS] (T03GRS9QS) Not marking C03GRS9SA because attention not on chat (window_not_focused)
+info: Jan-22 21:20:40.955 [HISTORY-FETCH] (T03GRS9QS) Fetching history for message pane: C03GRS9SA oldest: 1548178703.624300 latest: null
+info: Jan-22 21:20:40.955 [API-Q] (T03GRS9QS) e7a21ee7-1548210040.955 conversations.history called with reason: message-pane/requestHistory
+info: Jan-22 21:20:40.955 [API-Q] (T03GRS9QS) e7a21ee7-1548210040.955 conversations.history is ENQUEUED
+info: Jan-22 21:20:40.956 [API-Q] (T03GRS9QS) e7a21ee7-1548210040.955 conversations.history is ACTIVE
+info: Jan-22 21:20:40.998 [UNKNOWN-FETCH-MANAGER] (T03GRS9QS) received U4BNAQJ3H,U1PC8G64B,U5321R3RU,U6VS49VST,U6SS0MBD3,UCQ1SBPSM,UCQCNRJJ0,U06HA477D,U07J4SL48,USLACKBOT,U07KHSG4T,U07LN3ZQF,U07J5AB0S,U0K7P7RED,U4EF27M98,U07TCNH8V,U79HJHB4P,U07HXLH4L,U07K7TGJ2 (1)
+info: Jan-22 21:20:41.005 [CHECK-UNREADS] (T03GRS9QS) Checking unreads after debounced channel change to C03GRS9SA
+info: Jan-22 21:20:41.005 [CHECK-UNREADS] (T03GRS9QS) Not marking C03GRS9SA because attention not on chat (window_not_focused)
+info: Jan-22 21:20:41.070 [API-Q] (T03GRS9QS) e7a21ee7-1548210041.069 dnd.teamInfo called with reason: no_reason_provided
+info: Jan-22 21:20:41.070 [API-Q] (T03GRS9QS) e7a21ee7-1548210041.069 dnd.teamInfo is ENQUEUED
+info: Jan-22 21:20:41.070 [API-Q] (T03GRS9QS) e7a21ee7-1548210041.069 dnd.teamInfo is ACTIVE
+info: Jan-22 21:20:41.080 [UNKNOWN-FETCH-MANAGER] (T03GRS9QS) requesting U08H62T5G,U07HRPZ5E,U0HHQSGTZ,U07KWNHE3,U07HS9VPS,U06HB26GZ,U07KR5WP7,U07HRL8CT,U08H637NY,U07J53D8A,U07J6JT0E,U06HBC603,U087PNA3S,U08SK2HPU,U2JNHEV6W,U0AFHNT09,U0LK0MN3U,U19AL89TQ,U09NNC3QB,U07K1A89Y,U07LF5CM6,U1K27M8Q3,U07KXPSM8,U07HS0631,U07KB7KT6,U089AU7M0,U07KDFX8B,U07J9NXAP,U4QAYQK8C,U07NR6458,U262Z9277,U5EJ208EB,U06HBDEKW,U07KR40H4,U07K9JS7K,U66J5KJLD,U07KW516J,U07HRKFUN,U3NDHGMG8,U23NHEYPQ,U6L5358G6,U074V4NBF,U3A3VMQQY,U07K5C6F7,U07KB4VFS,U07HR7B88,U06RQ77RV,U4J9L8QPQ,U087PNGH0,U32A4L7S7,U07HQV5RN,U0D7DLS65,U3BF493UN,U53MSA7TN,U08308GNS,U8D39L90D,U0L088ESW,U07KYK1CY,U4HL38TEG,U0BEK8Y3A,U42TETWBG,U07HS89U1,U07KNSRBK,U0HM15J0G,U0B2NJ92S,U07KFHN64,U08H62U5S,U4X3LDGE7,U0BEHHMPF,U07KB51SQ,U07LRSKNK,U06RV0UE6,U8B2HR1K4,U5D3QGX88,U9L8JB1JA,U07L9NXT3,U5W3Z97K7,U07KXTTAT,U7K019U5R,U07BR4T0B,U09H8KZ4N,U93EGRH8Q,U0CPAAUSJ,U0AF3411D,U3DQTH0TW,U3LSE2SFL,U9BANBAQY,U07K86SPK,U07JLK8MA,U07KCNLGH,U9J5VD1RN,U6K607Q1Z,U07JLCJ2Y,U79S1MAS0,U9HKPNMTN,U5EJ256S3,U07K081LY,U3H9JL5HR,U9VMCJ2KT,U6F98EFFB,U071VE2M6,U0FMHBRHA,U80JK68KH,U0HM0CQS3,U0JFXP0KX,U0U9UNHTJ,U5VAXDQN4,U4X6RQ0AG,U38H0LXGF,U4R0G1NR4,UB3Q6B6NS,U7031D7RU,U07KXSA10,U07HVK074,U07HRLJJC,UE42HPWES,U8CBXUFUK,UB19HF3A7,U6ZARCMK7,UFKLHE9QB,U0XRS8R46,U0KUW13HR,UFCB5C6JD,UFKAUFZ32 (1)
+info: Jan-22 21:20:41.089 [API-Q] (T03GRS9QS) e7a21ee7-1548210040.955 conversations.history is RESOLVED
+info: Jan-22 21:20:41.090 [UNREAD-COUNTS] (T03GRS9QS) Counting unreads in C03GRS9SA because (1) timestamps added
+info: Jan-22 21:20:41.091 [UNREAD-COUNTS] (T03GRS9QS) Checking unreads in C03GRS9SA after a new message
+info: Jan-22 21:20:41.091 [CHECK-UNREADS] (T03GRS9QS) Not marking C03GRS9SA because attention not on chat (window_not_focused)
+info: Jan-22 21:20:41.099 [MESSAGE-LIST] (T03GRS9QS) componentWillReceiveProps isLoading: false isLoadingOlder: false timestamps: 48
+info: Jan-22 21:20:41.106 [CHECK-UNREADS] (T03GRS9QS) unreadLineVisible updated: false -> true
+info: Jan-22 21:20:41.163 [UNKNOWN-FETCH-MANAGER] (T03GRS9QS) received U08H62T5G,U07HRPZ5E,U0HHQSGTZ,U07KWNHE3,U07HS9VPS,U06HB26GZ,U07KR5WP7,U07HRL8CT,U08H637NY,U07J53D8A,U07J6JT0E,U06HBC603,U087PNA3S,U08SK2HPU,U2JNHEV6W,U0AFHNT09,U0LK0MN3U,U19AL89TQ,U09NNC3QB,U07K1A89Y,U07LF5CM6,U1K27M8Q3,U07KXPSM8,U07HS0631,U07KB7KT6,U089AU7M0,U07KDFX8B,U07J9NXAP,U4QAYQK8C,U07NR6458,U262Z9277,U5EJ208EB,U06HBDEKW,U07KR40H4,U07K9JS7K,U66J5KJLD,U07KW516J,U07HRKFUN,U3NDHGMG8,U23NHEYPQ,U6L5358G6,U074V4NBF,U3A3VMQQY,U07K5C6F7,U07KB4VFS,U07HR7B88,U06RQ77RV,U4J9L8QPQ,U087PNGH0,U32A4L7S7,U07HQV5RN,U0D7DLS65,U3BF493UN,U53MSA7TN,U08308GNS,U8D39L90D,U0L088ESW,U07KYK1CY,U4HL38TEG,U0BEK8Y3A,U42TETWBG,U07HS89U1,U07KNSRBK,U0HM15J0G,U0B2NJ92S,U07KFHN64,U08H62U5S,U4X3LDGE7,U0BEHHMPF,U07KB51SQ,U07LRSKNK,U06RV0UE6,U8B2HR1K4,U5D3QGX88,U9L8JB1JA,U07L9NXT3,U5W3Z97K7,U07KXTTAT,U7K019U5R,U07BR4T0B,U09H8KZ4N,U93EGRH8Q,U0CPAAUSJ,U0AF3411D,U3DQTH0TW,U3LSE2SFL,U9BANBAQY,U07K86SPK,U07JLK8MA,U07KCNLGH,U9J5VD1RN,U6K607Q1Z,U07JLCJ2Y,U79S1MAS0,U9HKPNMTN,U5EJ256S3,U07K081LY,U3H9JL5HR,U9VMCJ2KT,U6F98EFFB,U071VE2M6,U0FMHBRHA,U80JK68KH,U0HM0CQS3,U0JFXP0KX,U0U9UNHTJ,U5VAXDQN4,U4X6RQ0AG,U38H0LXGF,U4R0G1NR4,UB3Q6B6NS,U7031D7RU,U07KXSA10,U07HVK074,U07HRLJJC,UE42HPWES,U8CBXUFUK,UB19HF3A7,U6ZARCMK7,UFKLHE9QB,U0XRS8R46,U0KUW13HR,UFCB5C6JD,UFKAUFZ32 (1)
+info: Jan-22 21:20:41.175 [API-Q] (T03GRS9QS) e7a21ee7-1548210041.069 dnd.teamInfo is RESOLVED
+info: Jan-22 21:20:41.973 [FOCUS-EVENT] Window focused
+info: Jan-22 21:20:42.003 [CHECK-UNREADS] (T03GRS9QS) Checking unreads after window became focused
+info: Jan-22 21:20:42.003 [CHECK-UNREADS] (T03GRS9QS) Marking C03GRS9SA because mark_msgs_read_immediately pref
+info: Jan-22 21:20:42.005 [UNREAD-COUNTS] (T03GRS9QS) Counting unreads in C03GRS9SA because last_read changed to 1548178703.624300
+info: Jan-22 21:20:42.639 [API-Q] (T03GRS9QS) e7a21ee7-1548210042.638 conversations.mark called with reason: viewed
+info: Jan-22 21:20:42.639 [API-Q] (T03GRS9QS) e7a21ee7-1548210042.638 conversations.mark is ENQUEUED
+info: Jan-22 21:20:42.640 [API-Q] (T03GRS9QS) e7a21ee7-1548210042.638 conversations.mark is ACTIVE
+info: Jan-22 21:20:42.715 [API-Q] (T03GRS9QS) e7a21ee7-1548210042.638 conversations.mark is RESOLVED
+info: Jan-22 21:20:43.317 [FOCUS-EVENT] Window blurred
+info: Jan-22 21:20:44.697 [FOCUS-EVENT] Window focused
+info: Jan-22 21:20:44.719 [CHECK-UNREADS] (T03GRS9QS) Checking unreads after window became focused
+info: Jan-22 21:20:44.719 [CHECK-UNREADS] (T03GRS9QS) Not marking C03GRS9SA because last_read >= latest && channel is read
+info: Jan-22 21:20:57.641 [FOCUS-EVENT] Window blurred
+info: Jan-22 21:20:57.822 [UNKNOWN-FETCH-MANAGER] (T03GRS9QS) requesting U07HSAMT3,UATQWLZ0C,UBG2B2MJL,UFDB51TRQ,U71DLSLA1,U13BKQMDH,UESJBR71U,U0CA6JA6R,U092HRMKP,UF86RH6GN,U07KGR3K4,U6RENJLNP (1)
+info: Jan-22 21:20:57.844 [UNKNOWN-FETCH-MANAGER] (T03GRS9QS) received U07HSAMT3,UATQWLZ0C,UBG2B2MJL,UFDB51TRQ,U71DLSLA1,U13BKQMDH,UESJBR71U,U0CA6JA6R,U092HRMKP,UF86RH6GN,U07KGR3K4,U6RENJLNP (1)
+info: Jan-22 21:21:02.861 [FOCUS-EVENT] Window focused
+info: Jan-22 21:21:02.897 [CHECK-UNREADS] (T03GRS9QS) Checking unreads after window became focused
+info: Jan-22 21:21:02.898 [CHECK-UNREADS] (T03GRS9QS) Not marking C03GRS9SA because last_read >= latest && channel is read
+info: Jan-22 21:21:03.312 [FOCUS-EVENT] Window blurred
+info: Jan-22 21:21:03.391 [FOCUS-EVENT] Window focused
+info: Jan-22 21:21:03.430 [CHECK-UNREADS] (T03GRS9QS) Checking unreads after window became focused
+info: Jan-22 21:21:03.430 [CHECK-UNREADS] (T03GRS9QS) Not marking C03GRS9SA because last_read >= latest && channel is read
+info: Jan-22 21:21:08.444 [FOCUS-EVENT] Window blurred
+info: Jan-22 21:21:12.695 [TIMING-BEACON] [{"userId":"U4BNAQJ3H","teamId":"T03GRS9QS","teamSize":1,"versionTs":"1548202726","endpointUrl":"https://slack.com/beacon/timing","shouldLogDomNodeCount":false,"shouldLogSSBMemoryStats":false,"recordedMetrics":{"session_load_count_client|count":[1],"sm_flow_connect_prov_10|count":[1],"sm_flow_connected_prov_connected|count":[1],"api_call_apps_actions_list_time_active_in_client|timing":[238.56],"api_call_apps_actions_list_time_total_in_client|timing":[238.995],"ufm_teams_fetch|count":[1],"ufm_members_fetch|count":[19,124,12],"ufm_channels_fetch|count":[52],"client_content_visible_4|timing":[3720.49],"client_ui_rebuild_all_but_msgs|timing":[9.935],"sm_flow_finalize_prov_10|count":[1],"sm_flow_finalize_prov_ok_10|count":[1],"client_load|timing":[3087.41],"client_load_react_msgs|timing":[3087.44],"client_total_load|timing":[4128.74],"pt_redirectStart|timing":[2],"pt_redirectEnd|timing":[56],"pt_fetchStart|timing":[56],"pt_domainLookupStart|timing":[56],"pt_domainLookupEnd|timing":[56],"pt_connectStart|timing":[56],"pt_connectEnd|timing":[56],"pt_requestStart|timing":[57],"pt_responseStart|timing":[228],"pt_responseEnd|timing":[239],"pt_domLoading|timing":[229],"pt_domComplete|timing":[3173],"pt_domContentLoadedEventStart|timing":[3137],"pt_domContentLoadedEventEnd|timing":[3164],"pt_domInteractive|timing":[3133],"pt_section_redirect|timing":[54],"pt_section_app_cache|timing":[0],"pt_section_dns|timing":[0],"pt_section_tcp|timing":[0],"pt_section_request|timing":[171],"pt_section_response|timing":[11],"pt_section_processed|timing":[2944],"pt_section_parsed|timing":[2904],"pt_section_ready|timing":[40],"pt_section_scripts_executed|timing":[27],"inline_script_nodes|count":[22],"inline_style_nodes|count":[5],"external_script_nodes|count":[10],"external_link_nodes|count":[8],"longtask|timing":[372]}},{"userId":"U4BNAQJ3H","teamId":"T03GRS9QS","teamSize":null,"versionTs":"1548202726","endpointUrl":"https://slack.com/beacon/timing","shouldLogDomNodeCount":null,"shouldLogSSBMemoryStats":null,"recordedMetrics":{}}]
+info: Jan-22 21:21:20.497 [FOCUS-EVENT] Window focused
+info: Jan-22 21:21:20.520 [FOCUS-EVENT] Window blurred
+info: Jan-22 21:21:20.521 [FOCUS-EVENT] Window focused
+info: Jan-22 21:21:20.523 [FOCUS-EVENT] Window blurred
+info: Jan-22 21:21:20.544 [CHECK-UNREADS] (T03GRS9QS) Checking unreads after window became focused
+info: Jan-22 21:21:20.545 [CHECK-UNREADS] (T03GRS9QS) Not marking C03GRS9SA because attention not on chat (window_not_focused)
+info: Jan-22 21:21:20.545 [CHECK-UNREADS] (T03GRS9QS) Checking unreads after window became focused
+info: Jan-22 21:21:20.545 [CHECK-UNREADS] (T03GRS9QS) Not marking C03GRS9SA because attention not on chat (window_not_focused)
+info: Jan-22 21:21:29.428 [FOCUS-EVENT] Mousedown while !is_window_focused
+info: Jan-22 21:21:29.428 [FOCUS-EVENT] Window focused
+info: Jan-22 21:21:29.464 [CHECK-UNREADS] (T03GRS9QS) Checking unreads after window became focused
+info: Jan-22 21:21:29.464 [CHECK-UNREADS] (T03GRS9QS) Not marking C03GRS9SA because last_read >= latest && channel is read
+info: Jan-22 21:21:29.574 [ACTION:CHANNEL-SIDEBAR] Selected Vall_unreads
+info: Jan-22 21:21:29.584 [API-Q] (T03GRS9QS) e7a21ee7-1548210089.584 promo.banner called with reason: no_reason_provided
+info: Jan-22 21:21:29.584 [API-Q] (T03GRS9QS) e7a21ee7-1548210089.584 promo.banner is ENQUEUED
+info: Jan-22 21:21:29.584 [API-Q] (T03GRS9QS) e7a21ee7-1548210089.584 promo.banner is ACTIVE
+info: Jan-22 21:21:29.607 [API-Q] (T03GRS9QS) e7a21ee7-1548210089.607 unread.history called with reason: no_reason_provided
+info: Jan-22 21:21:29.607 [API-Q] (T03GRS9QS) e7a21ee7-1548210089.607 unread.history is ENQUEUED
+info: Jan-22 21:21:29.607 [API-Q] (T03GRS9QS) e7a21ee7-1548210089.607 unread.history is ACTIVE
+info: Jan-22 21:21:29.608 [API-Q] (T03GRS9QS) e7a21ee7-1548210089.608 highlights.briefing called with reason: no_reason_provided
+info: Jan-22 21:21:29.608 [API-Q] (T03GRS9QS) e7a21ee7-1548210089.608 highlights.briefing is ENQUEUED
+info: Jan-22 21:21:29.608 [API-Q] (T03GRS9QS) e7a21ee7-1548210089.608 highlights.briefing is ACTIVE
+info: Jan-22 21:21:29.660 [API-Q] (T03GRS9QS) e7a21ee7-1548210089.584 promo.banner is RESOLVED
+info: Jan-22 21:21:29.840 [API-Q] (T03GRS9QS) e7a21ee7-1548210089.607 unread.history is RESOLVED
+info: Jan-22 21:21:29.866 [INFO] Received unread view response: 3 channels; 101 total messages (first fetch)
+info: Jan-22 21:21:29.878 [API-Q] (T03GRS9QS) e7a21ee7-1548210089.878 highlights.list called with reason: no_reason_provided
+info: Jan-22 21:21:29.878 [API-Q] (T03GRS9QS) e7a21ee7-1548210089.878 highlights.list is ENQUEUED
+info: Jan-22 21:21:29.878 [API-Q] (T03GRS9QS) e7a21ee7-1548210089.878 highlights.list is ACTIVE
+info: Jan-22 21:21:29.879 [API-Q] (T03GRS9QS) e7a21ee7-1548210089.879 highlights.list called with reason: no_reason_provided
+info: Jan-22 21:21:29.879 [API-Q] (T03GRS9QS) e7a21ee7-1548210089.879 highlights.list is ENQUEUED
+info: Jan-22 21:21:29.879 [API-Q] (T03GRS9QS) e7a21ee7-1548210089.879 highlights.list is ACTIVE
+info: Jan-22 21:21:29.891 [UNKNOWN-FETCH-MANAGER] (T03GRS9QS) requesting U0AL05ELS (1)
+info: Jan-22 21:21:29.912 [UNKNOWN-FETCH-MANAGER] (T03GRS9QS) received U0AL05ELS (1)
+info: Jan-22 21:21:29.951 [API-Q] (T03GRS9QS) e7a21ee7-1548210089.879 highlights.list is RESOLVED
+info: Jan-22 21:21:30.067 [API-Q] (T03GRS9QS) e7a21ee7-1548210089.878 highlights.list is RESOLVED
+info: Jan-22 21:21:31.845 [API-Q] (T03GRS9QS) e7a21ee7-1548210089.608 highlights.briefing is RESOLVED
+info: Jan-22 21:21:32.371 [UNKNOWN-FETCH-MANAGER] (T03GRS9QS) requesting U8GFPUNS1,U93RS3KC2,U4T2AS997,UD5MK4JCB,U0EKYT53R,UA7GT3FEF,U8CUELE4S,U7ZLBLJE9,U07KALA92,U4ATDAPMY,U07LAQ3NF,U1QKC9UTZ,UABPT7USH,UCHAFFL78,U09TRRBS8,U21GJC6UX,UC3DY6NH1,U0VULQKGW,U07KQ8LGY (1)
+info: Jan-22 21:21:32.406 [UNKNOWN-FETCH-MANAGER] (T03GRS9QS) received U8GFPUNS1,U93RS3KC2,U4T2AS997,UD5MK4JCB,U0EKYT53R,UA7GT3FEF,U8CUELE4S,U7ZLBLJE9,U07KALA92,U4ATDAPMY,U07LAQ3NF,U1QKC9UTZ,UABPT7USH,UCHAFFL78,U09TRRBS8,U21GJC6UX,UC3DY6NH1,U0VULQKGW,U07KQ8LGY (1)
+info: Jan-22 21:21:32.419 [IMPROVED_SEARCH] (T03GRS9QS) Close Search
+info: Jan-22 21:21:32.419 [IMPROVED_SEARCH] (T03GRS9QS) Search is closing without query: Clear search session immediately
+info: Jan-22 21:21:40.263 [ACTION:CHANNEL-SIDEBAR] Selected CAJUGFN72
+info: Jan-22 21:21:40.267 [SWITCH-TO-CHANNEL] (T03GRS9QS) Switching to CAJUGFN72 at end
+info: Jan-22 21:21:40.307 [API-Q] (T03GRS9QS) e7a21ee7-1548210100.307 promo.banner called with reason: no_reason_provided
+info: Jan-22 21:21:40.307 [API-Q] (T03GRS9QS) e7a21ee7-1548210100.307 promo.banner is ENQUEUED
+info: Jan-22 21:21:40.308 [API-Q] (T03GRS9QS) e7a21ee7-1548210100.307 promo.banner is ACTIVE
+info: Jan-22 21:21:40.321 [MESSAGE-LIST] (T03GRS9QS) requestAround channelId: CAJUGFN72 isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Jan-22 21:21:40.321 [HISTORY-FETCH] (T03GRS9QS) Fetching history for message pane: CAJUGFN72 oldest: null latest: null
+info: Jan-22 21:21:40.321 [API-Q] (T03GRS9QS) e7a21ee7-1548210100.321 conversations.history called with reason: message-pane/requestHistory
+info: Jan-22 21:21:40.322 [API-Q] (T03GRS9QS) e7a21ee7-1548210100.321 conversations.history is ENQUEUED
+info: Jan-22 21:21:40.322 [API-Q] (T03GRS9QS) e7a21ee7-1548210100.321 conversations.history is ACTIVE
+info: Jan-22 21:21:40.345 [MESSAGE-LIST] (T03GRS9QS) componentWillReceiveProps isLoading: true isLoadingOlder: false timestamps: 0
+info: Jan-22 21:21:40.388 [API-Q] (T03GRS9QS) e7a21ee7-1548210100.307 promo.banner is RESOLVED
+info: Jan-22 21:21:40.431 [API-Q] (T03GRS9QS) e7a21ee7-1548210100.321 conversations.history is RESOLVED
+info: Jan-22 21:21:40.446 [UNREAD-COUNTS] (T03GRS9QS) Counting unreads in CAJUGFN72 because (42) timestamps added
+info: Jan-22 21:21:40.449 [COUNTS] (T03GRS9QS) Updated unread_cnt for CAJUGFN72: 3
+info: Jan-22 21:21:40.452 [UNREAD-COUNTS] (T03GRS9QS) Checking unreads in CAJUGFN72 after a new message
+info: Jan-22 21:21:40.452 [CHECK-UNREADS] (T03GRS9QS) Marking CAJUGFN72 because mark_msgs_read_immediately pref
+info: Jan-22 21:21:40.454 [UNREAD-COUNTS] (T03GRS9QS) Counting unreads in CAJUGFN72 because last_read changed to 1547843794.034600
+info: Jan-22 21:21:40.454 [COUNTS] (T03GRS9QS) Updated unread_cnt for CAJUGFN72: 0
+info: Jan-22 21:21:40.463 [MESSAGE-LIST] (T03GRS9QS) componentWillReceiveProps isLoading: false isLoadingOlder: false timestamps: 42
+info: Jan-22 21:21:40.645 [CHECK-UNREADS] (T03GRS9QS) unreadLineVisible updated: false -> true
+info: Jan-22 21:21:40.720 [UNKNOWN-FETCH-MANAGER] (T03GRS9QS) requesting UDQMUCS84,U9GC722G4 (1)
+info: Jan-22 21:21:40.721 [UNKNOWN-FETCH-MANAGER] (T03GRS9QS) requesting C13K6TETT (1)
+info: Jan-22 21:21:40.741 [UNKNOWN-FETCH-MANAGER] (T03GRS9QS) received UDQMUCS84,U9GC722G4 (1)
+info: Jan-22 21:21:40.743 [UNKNOWN-FETCH-MANAGER] (T03GRS9QS) received C13K6TETT (1)
+info: Jan-22 21:21:40.805 [CHECK-UNREADS] (T03GRS9QS) Checking unreads after debounced channel change to CAJUGFN72
+info: Jan-22 21:21:40.806 [CHECK-UNREADS] (T03GRS9QS) Not marking CAJUGFN72 because last_read >= latest && channel is read
+info: Jan-22 21:21:42.204 [API-Q] (T03GRS9QS) e7a21ee7-1548210102.202 conversations.mark called with reason: viewed
+info: Jan-22 21:21:42.204 [API-Q] (T03GRS9QS) e7a21ee7-1548210102.202 conversations.mark is ENQUEUED
+info: Jan-22 21:21:42.205 [API-Q] (T03GRS9QS) e7a21ee7-1548210102.202 conversations.mark is ACTIVE
+info: Jan-22 21:21:42.280 [API-Q] (T03GRS9QS) e7a21ee7-1548210102.202 conversations.mark is RESOLVED
+info: Jan-22 21:21:45.284 [TIMING-BEACON] [{"userId":"U4BNAQJ3H","teamId":"T03GRS9QS","teamSize":1,"versionTs":"1548202726","endpointUrl":"https://slack.com/beacon/timing","shouldLogDomNodeCount":false,"shouldLogSSBMemoryStats":false,"recordedMetrics":{"ufm_members_fetch|count":[1,19,2],"react_t_mount|timing":[89.1],"ufm_channels_fetch|count":[1],"react_t_update|timing":[5.99,1.005,5.395,9.955,2.505]}},{"userId":"U4BNAQJ3H","teamId":"T03GRS9QS","teamSize":null,"versionTs":"1548202726","endpointUrl":"https://slack.com/beacon/timing","shouldLogDomNodeCount":null,"shouldLogSSBMemoryStats":null,"recordedMetrics":{}}]
+info: Jan-22 21:21:58.215 [API-Q] (T03GRS9QS) e7a21ee7-1548210118.214 channels.suggestions called with reason: no_reason_provided
+info: Jan-22 21:21:58.215 [API-Q] (T03GRS9QS) e7a21ee7-1548210118.214 channels.suggestions is ENQUEUED
+info: Jan-22 21:21:58.216 [API-Q] (T03GRS9QS) e7a21ee7-1548210118.214 channels.suggestions is ACTIVE
+info: Jan-22 21:21:58.284 [API-Q] (T03GRS9QS) e7a21ee7-1548210118.214 channels.suggestions is RESOLVED
+info: Jan-22 21:22:17.873 [TIMING-BEACON] [{"userId":"U4BNAQJ3H","teamId":"T03GRS9QS","teamSize":1,"versionTs":"1548202726","endpointUrl":"https://slack.com/beacon/timing","shouldLogDomNodeCount":false,"shouldLogSSBMemoryStats":false,"recordedMetrics":{"react_t_update|timing":[9.655]}},{"userId":"U4BNAQJ3H","teamId":"T03GRS9QS","teamSize":null,"versionTs":"1548202726","endpointUrl":"https://slack.com/beacon/timing","shouldLogDomNodeCount":null,"shouldLogSSBMemoryStats":null,"recordedMetrics":{}}]
+info: Jan-22 21:22:50.462 [TIMING-BEACON] [{"userId":"U4BNAQJ3H","teamId":"T03GRS9QS","teamSize":1,"versionTs":"1548202726","endpointUrl":"https://slack.com/beacon/timing","shouldLogDomNodeCount":false,"shouldLogSSBMemoryStats":false,"recordedMetrics":{}},{"userId":"U4BNAQJ3H","teamId":"T03GRS9QS","teamSize":null,"versionTs":"1548202726","endpointUrl":"https://slack.com/beacon/timing","shouldLogDomNodeCount":null,"shouldLogSSBMemoryStats":null,"recordedMetrics":{}}]
+info: Jan-22 21:23:14.933 [API-Q] (T03GRS9QS) e7a21ee7-1548210194.932 search.autocomplete.querySuggestions called with reason: no_reason_provided
+info: Jan-22 21:23:14.933 [API-Q] (T03GRS9QS) e7a21ee7-1548210194.932 search.autocomplete.querySuggestions is ENQUEUED
+info: Jan-22 21:23:14.933 [API-Q] (T03GRS9QS) e7a21ee7-1548210194.932 search.autocomplete.querySuggestions is ACTIVE
+info: Jan-22 21:23:14.933 [API-Q] (T03GRS9QS) e7a21ee7-1548210194.933 search.autocomplete.querySuggestions called with reason: no_reason_provided
+info: Jan-22 21:23:14.934 [API-Q] (T03GRS9QS) e7a21ee7-1548210194.933 search.autocomplete.querySuggestions is ENQUEUED
+info: Jan-22 21:23:14.934 [API-Q] (T03GRS9QS) e7a21ee7-1548210194.933 search.autocomplete.querySuggestions is ACTIVE
+info: Jan-22 21:23:14.934 [API-Q] (T03GRS9QS) e7a21ee7-1548210194.934 search.autocomplete.querySuggestions called with reason: no_reason_provided
+info: Jan-22 21:23:14.934 [API-Q] (T03GRS9QS) e7a21ee7-1548210194.934 search.autocomplete.querySuggestions is ENQUEUED
+info: Jan-22 21:23:14.934 [API-Q] (T03GRS9QS) e7a21ee7-1548210194.934 search.autocomplete.querySuggestions is ACTIVE
+info: Jan-22 21:23:14.935 [API-Q] (T03GRS9QS) e7a21ee7-1548210194.935 search.autocomplete.querySuggestions called with reason: no_reason_provided
+info: Jan-22 21:23:14.935 [API-Q] (T03GRS9QS) e7a21ee7-1548210194.935 search.autocomplete.querySuggestions is ENQUEUED
+info: Jan-22 21:23:14.935 [API-Q] (T03GRS9QS) e7a21ee7-1548210194.935 search.autocomplete.querySuggestions is ACTIVE
+info: Jan-22 21:23:14.936 [API-Q] (T03GRS9QS) e7a21ee7-1548210194.935 search.autocomplete.fileSuggestions called with reason: no_reason_provided
+info: Jan-22 21:23:14.936 [API-Q] (T03GRS9QS) e7a21ee7-1548210194.935 search.autocomplete.fileSuggestions is ENQUEUED
+info: Jan-22 21:23:14.936 [API-Q] (T03GRS9QS) e7a21ee7-1548210194.935 search.autocomplete.fileSuggestions is ACTIVE
+info: Jan-22 21:23:15.032 [IMPROVED_SEARCH] (T03GRS9QS) Open Search
+info: Jan-22 21:23:15.032 [IMPROVED_SEARCH] (T03GRS9QS) Search is opening without query: Starting new search session
+info: Jan-22 21:23:15.107 [API-Q] (T03GRS9QS) e7a21ee7-1548210195.107 search.precache called with reason: no_reason_provided
+info: Jan-22 21:23:15.107 [API-Q] (T03GRS9QS) e7a21ee7-1548210195.107 search.precache is ENQUEUED
+info: Jan-22 21:23:15.108 [API-Q] (T03GRS9QS) e7a21ee7-1548210195.107 search.precache is ACTIVE
+info: Jan-22 21:23:15.111 [API-Q] (T03GRS9QS) e7a21ee7-1548210195.111 search.autocomplete called with reason: no_reason_provided
+info: Jan-22 21:23:15.111 [API-Q] (T03GRS9QS) e7a21ee7-1548210195.111 search.autocomplete is ENQUEUED
+info: Jan-22 21:23:15.111 [API-Q] (T03GRS9QS) e7a21ee7-1548210195.111 search.autocomplete is ACTIVE
+info: Jan-22 21:23:15.131 [API-Q] (T03GRS9QS) e7a21ee7-1548210194.935 search.autocomplete.querySuggestions is RESOLVED
+info: Jan-22 21:23:15.203 [API-Q] (T03GRS9QS) e7a21ee7-1548210195.111 search.autocomplete is RESOLVED
+info: Jan-22 21:23:15.336 [API-Q] (T03GRS9QS) e7a21ee7-1548210194.935 search.autocomplete.fileSuggestions is RESOLVED
+info: Jan-22 21:23:15.457 [API-Q] (T03GRS9QS) e7a21ee7-1548210195.107 search.precache is RESOLVED
+info: Jan-22 21:23:15.514 [API-Q] (T03GRS9QS) e7a21ee7-1548210194.932 search.autocomplete.querySuggestions is RESOLVED
+info: Jan-22 21:23:15.572 [API-Q] (T03GRS9QS) e7a21ee7-1548210194.933 search.autocomplete.querySuggestions is RESOLVED
+info: Jan-22 21:23:15.682 [API-Q] (T03GRS9QS) e7a21ee7-1548210194.934 search.autocomplete.querySuggestions is RESOLVED
+info: Jan-22 21:23:20.597 [IMPROVED_SEARCH] (T03GRS9QS) Accepted search query
+info: Jan-22 21:23:20.601 [IMPROVED_SEARCH] (T03GRS9QS) Accepting query suggestion
+info: Jan-22 21:23:20.606 [IMPROVED_SEARCH] (T03GRS9QS) Starting new search
+info: Jan-22 21:23:20.607 [IMPROVED_SEARCH] (T03GRS9QS) Fetching all search results
+info: Jan-22 21:23:20.609 [API-Q] (T03GRS9QS) e7a21ee7-1548210200.608 search.modules called with reason: no_reason_provided
+info: Jan-22 21:23:20.609 [API-Q] (T03GRS9QS) e7a21ee7-1548210200.608 search.modules is ENQUEUED
+info: Jan-22 21:23:20.609 [API-Q] (T03GRS9QS) e7a21ee7-1548210200.608 search.modules is ACTIVE
+info: Jan-22 21:23:20.610 [API-Q] (T03GRS9QS) e7a21ee7-1548210200.609 search.modules called with reason: no_reason_provided
+info: Jan-22 21:23:20.610 [API-Q] (T03GRS9QS) e7a21ee7-1548210200.609 search.modules is ENQUEUED
+info: Jan-22 21:23:20.610 [API-Q] (T03GRS9QS) e7a21ee7-1548210200.609 search.modules is ACTIVE
+info: Jan-22 21:23:20.611 [API-Q] (T03GRS9QS) e7a21ee7-1548210200.610 search.modules called with reason: no_reason_provided
+info: Jan-22 21:23:20.611 [API-Q] (T03GRS9QS) e7a21ee7-1548210200.610 search.modules is ENQUEUED
+info: Jan-22 21:23:20.611 [API-Q] (T03GRS9QS) e7a21ee7-1548210200.610 search.modules is ACTIVE
+info: Jan-22 21:23:20.611 [API-Q] (T03GRS9QS) e7a21ee7-1548210200.611 search.save called with reason: no_reason_provided
+info: Jan-22 21:23:20.611 [API-Q] (T03GRS9QS) e7a21ee7-1548210200.611 search.save is ENQUEUED
+info: Jan-22 21:23:20.612 [API-Q] (T03GRS9QS) e7a21ee7-1548210200.611 search.save is ACTIVE
+info: Jan-22 21:23:20.668 [API-Q] (T03GRS9QS) e7a21ee7-1548210200.611 search.save is RESOLVED
+info: Jan-22 21:23:21.069 [API-Q] (T03GRS9QS) e7a21ee7-1548210200.610 search.modules is RESOLVED
+info: Jan-22 21:23:21.071 [IMPROVED_SEARCH] (T03GRS9QS) Files results loaded successfully
+info: Jan-22 21:23:21.135 [UNKNOWN-FETCH-MANAGER] (T03GRS9QS) requesting U3KJ32TQ8,U8PPVCVHR,U0FHP692A,U07KETFQB (1)
+info: Jan-22 21:23:21.156 [UNKNOWN-FETCH-MANAGER] (T03GRS9QS) received U3KJ32TQ8,U8PPVCVHR,U0FHP692A,U07KETFQB (1)
+info: Jan-22 21:23:21.218 [API-Q] (T03GRS9QS) e7a21ee7-1548210200.609 search.modules is RESOLVED
+info: Jan-22 21:23:21.219 [IMPROVED_SEARCH] (T03GRS9QS) Recent message results loaded successfully
+info: Jan-22 21:23:21.402 [API-Q] (T03GRS9QS) e7a21ee7-1548210200.608 search.modules is RESOLVED
+info: Jan-22 21:23:21.402 [IMPROVED_SEARCH] (T03GRS9QS) Relevant message results loaded successfully
+info: Jan-22 21:23:21.407 [UNKNOWN-FETCH-MANAGER] (T03GRS9QS) requesting C07JYE5B5,C07PGTSLT,C6P6U1HQE,C0F0D1C6A,CD61VBRRC,CBFU62ZK3 (1)
+info: Jan-22 21:23:21.407 [UNKNOWN-FETCH-MANAGER] (T03GRS9QS) requesting B083C1WLD,B9Q15PT5L,B9HPXUZA9,B0FD17G67 (1)
+info: Jan-22 21:23:21.488 [UNKNOWN-FETCH-MANAGER] (T03GRS9QS) requesting U07KUBFLZ,U4PKB4XS5 (1)
+info: Jan-22 21:23:21.492 [UNKNOWN-FETCH-MANAGER] (T03GRS9QS) received C07JYE5B5,C07PGTSLT,C6P6U1HQE,C0F0D1C6A,CD61VBRRC,CBFU62ZK3 (1)
+info: Jan-22 21:23:21.494 [UNKNOWN-FETCH-MANAGER] (T03GRS9QS) received B083C1WLD,B9Q15PT5L,B9HPXUZA9,B0FD17G67 (1)
+info: Jan-22 21:23:21.582 [UNKNOWN-FETCH-MANAGER] (T03GRS9QS) received U07KUBFLZ,U4PKB4XS5 (1)
+info: Jan-22 21:23:23.051 [TIMING-BEACON] [{"userId":"U4BNAQJ3H","teamId":"T03GRS9QS","teamSize":1,"versionTs":"1548202726","endpointUrl":"https://slack.com/beacon/timing","shouldLogDomNodeCount":false,"shouldLogSSBMemoryStats":false,"recordedMetrics":{"react_t_update|timing":[7.255,1.09,5.555],"autocomplete_query_suggestions_response_time_batch_3|timing":[196.97],"ac_request_to_response|timing":[106.625,67.345,61.925,64.71,53.68,72.295],"autocomplete_query_suggestions_response_time_batch_0|timing":[583.03],"autocomplete_query_suggestions_response_time_batch_1|timing":[639.305],"autocomplete_query_suggestions_response_time_batch_2|timing":[748.28],"autocomplete_query_suggestions|timing":[13.165,8.13,5.55,4.5,4.35],"ts-sorter-matching|timing":[8.285,6.785,5.38,7.57,5.755],"ts-sorter-frecency-sort|timing":[2.33],"ts-sorter-sorting|timing":[5.875,1.025],"ts-searcher-search|timing":[58.33,55.165,59.645,47.53,71.235],"search_request_to_response|timing":[460.19,609.61,794.215],"ufm_members_fetch|count":[4,2],"search_accept_to_render_start|timing":[676.685],"ufm_channels_fetch|count":[6]}},{"userId":"U4BNAQJ3H","teamId":"T03GRS9QS","teamSize":null,"versionTs":"1548202726","endpointUrl":"https://slack.com/beacon/timing","shouldLogDomNodeCount":null,"shouldLogSSBMemoryStats":null,"recordedMetrics":{}}]
+warn: Jan-22 21:23:23.273 Couldn't complete metrics measurement for start mark 'universal_search_search_accept'
+warn: Jan-22 21:23:37.373 Couldn't complete metrics measurement for start mark 'universal_search_search_accept'
+info: Jan-22 21:23:50.657 [IMPROVED_SEARCH] (T03GRS9QS) Close Search
+info: Jan-22 21:23:50.658 [IMPROVED_SEARCH] (T03GRS9QS) Search closing with active query: Starting timeout to clear session
+info: Jan-22 21:23:54.581 [FOCUS-EVENT] Window blurred
+info: Jan-22 21:23:55.640 [TIMING-BEACON] [{"userId":"U4BNAQJ3H","teamId":"T03GRS9QS","teamSize":1,"versionTs":"1548202726","endpointUrl":"https://slack.com/beacon/timing","shouldLogDomNodeCount":false,"shouldLogSSBMemoryStats":false,"recordedMetrics":{"react_t_update|timing":[3.905,1.065,8.61,4.22,3.9,8.955,1.095,14.485]}},{"userId":"U4BNAQJ3H","teamId":"T03GRS9QS","teamSize":null,"versionTs":"1548202726","endpointUrl":"https://slack.com/beacon/timing","shouldLogDomNodeCount":null,"shouldLogSSBMemoryStats":null,"recordedMetrics":{}}]
+info: Jan-22 21:24:28.229 [TIMING-BEACON] [{"userId":"U4BNAQJ3H","teamId":"T03GRS9QS","teamSize":1,"versionTs":"1548202726","endpointUrl":"https://slack.com/beacon/timing","shouldLogDomNodeCount":false,"shouldLogSSBMemoryStats":false,"recordedMetrics":{}},{"userId":"U4BNAQJ3H","teamId":"T03GRS9QS","teamSize":null,"versionTs":"1548202726","endpointUrl":"https://slack.com/beacon/timing","shouldLogDomNodeCount":null,"shouldLogSSBMemoryStats":null,"recordedMetrics":{}}]
+info: Jan-22 21:24:29.810 [FOCUS-EVENT] Window focused
+info: Jan-22 21:24:29.859 [CHECK-UNREADS] (T03GRS9QS) Checking unreads after window became focused
+info: Jan-22 21:24:29.860 [CHECK-UNREADS] (T03GRS9QS) Not marking CAJUGFN72 because last_read >= latest && channel is read
+info: Jan-22 21:24:33.288 [FOCUS-EVENT] Window blurred
+info: Jan-22 21:24:37.972 [FOCUS-EVENT] Window focused
+info: Jan-22 21:24:38.019 [CHECK-UNREADS] (T03GRS9QS) Checking unreads after window became focused
+info: Jan-22 21:24:38.020 [CHECK-UNREADS] (T03GRS9QS) Not marking CAJUGFN72 because last_read >= latest && channel is read
+info: Jan-22 21:24:39.707 [FOCUS-EVENT] Window blurred
+info: Jan-22 21:24:40.091 [FOCUS-EVENT] Window focused
+info: Jan-22 21:24:40.134 [CHECK-UNREADS] (T03GRS9QS) Checking unreads after window became focused
+info: Jan-22 21:24:40.134 [CHECK-UNREADS] (T03GRS9QS) Not marking CAJUGFN72 because last_read >= latest && channel is read
+info: Jan-22 21:24:40.319 [FOCUS-EVENT] Window blurred
+info: Jan-22 21:24:44.073 [FOCUS-EVENT] Window focused
+info: Jan-22 21:24:44.130 [CHECK-UNREADS] (T03GRS9QS) Checking unreads after window became focused
+info: Jan-22 21:24:44.130 [CHECK-UNREADS] (T03GRS9QS) Not marking CAJUGFN72 because last_read >= latest && channel is read
+info: Jan-22 21:24:45.579 [FOCUS-EVENT] Window blurred
+info: Jan-22 21:24:47.145 [FOCUS-EVENT] Window focused
+info: Jan-22 21:24:47.192 [CHECK-UNREADS] (T03GRS9QS) Checking unreads after window became focused
+info: Jan-22 21:24:47.192 [CHECK-UNREADS] (T03GRS9QS) Not marking CAJUGFN72 because last_read >= latest && channel is read
+info: Jan-22 21:24:48.683 [FOCUS-EVENT] Window blurred
+info: Jan-22 21:25:00.818 [TIMING-BEACON] [{"userId":"U4BNAQJ3H","teamId":"T03GRS9QS","teamSize":1,"versionTs":"1548202726","endpointUrl":"https://slack.com/beacon/timing","shouldLogDomNodeCount":false,"shouldLogSSBMemoryStats":false,"recordedMetrics":{}},{"userId":"U4BNAQJ3H","teamId":"T03GRS9QS","teamSize":null,"versionTs":"1548202726","endpointUrl":"https://slack.com/beacon/timing","shouldLogDomNodeCount":null,"shouldLogSSBMemoryStats":null,"recordedMetrics":{}}]
+info: Jan-22 21:25:17.479 [FOCUS-EVENT] Window focused
+info: Jan-22 21:25:17.532 [CHECK-UNREADS] (T03GRS9QS) Checking unreads after window became focused
+info: Jan-22 21:25:17.532 [CHECK-UNREADS] (T03GRS9QS) Not marking CAJUGFN72 because last_read >= latest && channel is read
+info: Jan-22 21:25:21.722 [FOCUS-EVENT] Window blurred
+info: Jan-22 21:25:33.407 [TIMING-BEACON] [{"userId":"U4BNAQJ3H","teamId":"T03GRS9QS","teamSize":1,"versionTs":"1548202726","endpointUrl":"https://slack.com/beacon/timing","shouldLogDomNodeCount":false,"shouldLogSSBMemoryStats":false,"recordedMetrics":{}},{"userId":"U4BNAQJ3H","teamId":"T03GRS9QS","teamSize":null,"versionTs":"1548202726","endpointUrl":"https://slack.com/beacon/timing","shouldLogDomNodeCount":null,"shouldLogSSBMemoryStats":null,"recordedMetrics":{}}]
