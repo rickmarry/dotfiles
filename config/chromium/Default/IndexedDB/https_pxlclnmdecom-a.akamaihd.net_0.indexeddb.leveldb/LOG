@@ -1,1 +1,3 @@
-2019/01/22-14:58:41.660 14065 Reusing MANIFEST /home/rickm/.config/chromium/Default/IndexedDB/https_pxlclnmdecom-a.akamaihd.net_0.indexeddb.leveldb/MANIFEST-000001
+2019/01/23-15:04:22.938 15173 Reusing MANIFEST /home/rickm/.config/chromium/Default/IndexedDB/https_pxlclnmdecom-a.akamaihd.net_0.indexeddb.leveldb/MANIFEST-000001
+2019/01/23-15:04:22.938 15173 Recovering log #3
+2019/01/23-15:04:22.938 15173 Reusing old log /home/rickm/.config/chromium/Default/IndexedDB/https_pxlclnmdecom-a.akamaihd.net_0.indexeddb.leveldb/000003.log 

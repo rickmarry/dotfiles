@@ -1,1 +1,3 @@
-2019/01/22-15:30:30.645 2211 Reusing MANIFEST /home/rickm/.config/chromium/Default/IndexedDB/https_docs.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2019/01/23-10:26:49.644 23231 Reusing MANIFEST /home/rickm/.config/chromium/Default/IndexedDB/https_docs.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2019/01/23-10:26:49.644 23231 Recovering log #3
+2019/01/23-10:26:49.645 23231 Reusing old log /home/rickm/.config/chromium/Default/IndexedDB/https_docs.google.com_0.indexeddb.leveldb/000003.log 

@@ -6,6 +6,7 @@
 #export GEM_HOME=$HOME/.gem
 #export GEM_PATH=$HOME/.gem
 
+export AWS_EC2_IP="18.191.108.8"
 set -o vi
 export PATH="$PATH:.:~/dotfiles/bin:/usr/local/go/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 export GOPATH=$HOME/workspace/go
