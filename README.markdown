@@ -36,3 +36,16 @@ cd ~/dotfiles
 To make tmux work:
 -----------------
 brew install reattach-to-user-namespace
+
+
+To make neovim work:
+--------------------
+install neovim
+create file: ~/.config/nvim/init.vim
+past the folling lines into init.vim:
+``` bash
+set runtimepath^=~/.vim runtimepath+=~/.vim/after                                                                                       
+let &packpath = &runtimepath                                                                                                            
+source ~/.vimrc 
+```
+
