@@ -3,4 +3,11 @@
 
 # But not these files...
 !.gitignore
+
+#Not the nvm dir
+!nvim/
+#But everything inside the nvim dir
+nvim/*
+#Except for init.vim (not confusing at all, right?)
 !nvim/init.vim
+
