@@ -1,0 +1,16 @@
+[user]
+	email = rick.marry@gmail.com
+	name = Rick Marry
+[core]
+	excludesfile = /home/rickm/.gitignore
+	editor = nvim
+[diff]
+	tool = vimdiff
+[mergetool]
+	path = nvim
+[merge]
+	tool = vimdiff
+[mergetool "vimdiff"]
+	path = nvim
+[alias]
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
