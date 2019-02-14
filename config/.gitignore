@@ -11,3 +11,5 @@ nvim/*
 #Except for init.vim (not confusing at all, right?)
 !nvim/init.vim
 
+!i3/
+
