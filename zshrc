@@ -1,6 +1,7 @@
 [ -f ~/proxies.sh ] && . ~/.proxies.sh on
 [ -f ~/aws-cred.sh ] && . ~/aws-cred.sh
 [ -f ~/.ghtoken.sh ] && . ~/.ghtoken.sh
+[ -f ~/.auth-agent ] && . ~/.auth-agent
 [ -f ~/devops-apps-local-run-env.sh ] && . ~/devops-apps-local-run-env.sh
 
 #export GEM_HOME=$HOME/.gem
@@ -111,6 +112,7 @@ alias e_nginx='sudo nginx -s stop'
 alias ws='cd ~/workspace'
 alias gws='cd ~/workspace/go/src/github.com/chef'
 alias a='cd ~/workspace/go/src/github.com/chef/a2'
+alias e='cd ~/workspace/go/src/github.com/chef/a2/ec2'
 alias c='cd ~/workspace/go/src/github.com/chef/a2/components/compliance-service'
 alias "ij=open -a /Applications/IntelliJ\ IDEA.app"
 
