@@ -140,6 +140,9 @@ alias es-large='ES_PATH_CONF=/usr/local/etc/elasticsearch-large elasticsearch'
 alias es-large-trimmed='ES_PATH_CONF=/usr/local/etc/elasticsearch-large-trimmed elasticsearch'
 alias es-large-mark-dlatest-ts='ES_PATH_CONF=/usr/local/etc/mark-dlatest-ts elasticsearch'
 
+#this causes sudo to preserve env and alias' 
+alias sudo='sudo '
+
 #vim bindings
 bindkey -v
 
@@ -161,6 +164,10 @@ export NVM_DIR="$HOME/.nvm"
 # if direnv exists hook it up to zsh
 if type direnv > /dev/null; then
   eval "$(direnv hook zsh)"
+fi
+
+if hash thefuck 2>/dev/null; then 
+  eval $(thefuck --alias)
 fi
 
 . $HOME/.asdf/asdf.sh
