@@ -145,6 +145,7 @@ alias sudo='sudo '
 
 #make laptop readable for my shitty eyes
 alias shitty_eyes='xrandr --output eDP1 --mode 1920x1080'
+alias shittier_eyes='xrandr --output eDP1 --mode 1400x900'
 
 #vim bindings
 bindkey -v
