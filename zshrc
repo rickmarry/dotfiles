@@ -143,6 +143,9 @@ alias es-large-mark-dlatest-ts='ES_PATH_CONF=/usr/local/etc/mark-dlatest-ts elas
 #this causes sudo to preserve env and alias' 
 alias sudo='sudo '
 
+#make laptop readable for my shitty eyes
+alias shitty_eyes='xrandr --output eDP1 --mode 1920x1080'
+
 #vim bindings
 bindkey -v
 
