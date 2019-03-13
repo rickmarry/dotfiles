@@ -140,12 +140,18 @@ alias es-large='ES_PATH_CONF=/usr/local/etc/elasticsearch-large elasticsearch'
 alias es-large-trimmed='ES_PATH_CONF=/usr/local/etc/elasticsearch-large-trimmed elasticsearch'
 alias es-large-mark-dlatest-ts='ES_PATH_CONF=/usr/local/etc/mark-dlatest-ts elasticsearch'
 
+
+alias sterm='st -f "Liberation Mono:size=14"'
+
 #this causes sudo to preserve env and alias' 
 alias sudo='sudo '
 
 #make laptop readable for my shitty eyes
 alias shitty_eyes='xrandr --output eDP1 --mode 1920x1080'
 alias shittier_eyes='xrandr --output eDP1 --mode 1400x900'
+alias shit_eyes='xrandr --output eDP1 --mode 1920x1200'
+
+alias nuke_clipboard='clipdel -d ".*"'
 
 #vim bindings
 bindkey -v
