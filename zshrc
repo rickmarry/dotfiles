@@ -116,9 +116,9 @@ alias e_nginx='sudo nginx -s stop'
 
 alias ws='cd ~/workspace'
 alias gws='cd ~/workspace/go/src/github.com/chef'
-alias a='cd ~/workspace/go/src/github.com/chef/a2'
-alias e='cd ~/workspace/go/src/github.com/chef/a2/ec2'
-alias c='cd ~/workspace/go/src/github.com/chef/a2/components/compliance-service'
+alias a='cd ~/workspace/go/src/github.com/chef/automate'
+alias e='cd ~/workspace/go/src/github.com/chef/automate/ec2'
+alias c='cd ~/workspace/go/src/github.com/chef/automate/components/compliance-service'
 alias "ij=open -a /Applications/IntelliJ\ IDEA.app"
 
 alias clearall="clear && printf '\e[3J'"
