@@ -1,14 +1,13 @@
 [ -f ~/proxies.sh ] && . ~/.proxies.sh on
 [ -f ~/aws-cred.sh ] && . ~/aws-cred.sh
 [ -f ~/.ghtoken.sh ] && . ~/.ghtoken.sh
+[ -f ~/.a2lic.sh ] && . ~/.a2lic.sh
 [ -f ~/.auth-agent ] && . ~/.auth-agent
 [ -f ~/devops-apps-local-run-env.sh ] && . ~/devops-apps-local-run-env.sh
 
-#export GEM_HOME=$HOME/.gem
-#export GEM_PATH=$HOME/.gem
+set -o vi
 
 export AWS_EC2_IP="18.191.108.8"
-set -o vi
 export PATH="$PATH:.:~/dotfiles/bin:/usr/local/go/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 export GOPATH=$HOME/workspace/go
 export PATH=$PATH::$GOPATH/bin:$GROOVY_HOME/bin
@@ -69,6 +68,12 @@ ZSH_THEME="jnrowe"
 plugins=(docker vagrant tmux git mvn spring brew knife)
 
 # User configuration
+
+#this causes sudo to preserve env and alias' 
+alias sudo='sudo '
+# the following 2 lines are explained in: https://github.com/robbyrussell/oh-my-zsh/issues/5311
+export ZSH_DISABLE_COMPFIX="true"
+alias suroot='sudo -E -s'
 
 # export MANPATH="/usr/local/man:$MANPATH"
 source $ZSH/oh-my-zsh.sh
@@ -142,9 +147,6 @@ alias es-large-mark-dlatest-ts='ES_PATH_CONF=/usr/local/etc/mark-dlatest-ts elas
 
 
 alias sterm='st -f "Liberation Mono:size=14"'
-
-#this causes sudo to preserve env and alias' 
-alias sudo='sudo '
 
 #make laptop readable for my shitty eyes
 alias shitty_eyes='xrandr --output eDP1 --mode 1920x1080'
