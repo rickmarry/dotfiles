@@ -73,7 +73,7 @@ plugins=(docker vagrant tmux git mvn spring brew knife)
 alias sudo='sudo '
 # the following 2 lines are explained in: https://github.com/robbyrussell/oh-my-zsh/issues/5311
 export ZSH_DISABLE_COMPFIX="true"
-alias suroot='sudo -E -s'
+alias suroot='sudo -E -s zsh'
 
 # export MANPATH="/usr/local/man:$MANPATH"
 source $ZSH/oh-my-zsh.sh
