@@ -8,7 +8,9 @@
 set -o vi
 
 export AWS_EC2_IP="18.191.108.8"
+
 export PATH="$PATH:.:~/dotfiles/bin:/usr/local/go/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+export ELASTICSEARCH_URL=http://localhost:9200
 export GOPATH=$HOME/workspace/go
 export PATH=$PATH::$GOPATH/bin:$GROOVY_HOME/bin
 export BF='15MB'
@@ -65,7 +67,7 @@ ZSH_THEME="jnrowe"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(docker vagrant tmux git mvn spring brew knife)
+plugins=(docker vagrant tmux git mvn spring brew knife okta-aws)
 
 # User configuration
 
