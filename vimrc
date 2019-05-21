@@ -297,11 +297,16 @@ let g:NERDTreeSortOrder=['^__\.py$', '\/$', '*', '\.swp$', '\.bak$', '\~$']
 let g:NERDTreeShowBookmarks=1
 let g:nerdtree_tabs_focus_on_files=1
 let g:NERDTreeMapOpenInTabSilent = '<RightMouse>'
-let g:NERDTreeWinSize = 50
+let g:NERDTreeWinSize = 30
+let NERDTreeQuitOnOpen = 1
+let NERDTreeShowHidden=1
+let NERDTreeAutoDeleteBuffer = 1
+let NERDTreeMinimalUI = 1
+let NERDTreeDirArrows = 1
 
 set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*.pyc,*.db,*.sqlite
 nnoremap <silent> <F2> :NERDTreeFind<CR>
-noremap <F3> :NERDTreeToggle<CR>
+nnoremap <silent> <Leader>v :NERDTreeFind<CR>
 
 map <leader>q :bp<bar>sp<bar>bn<bar>bd<CR>.
 
@@ -309,7 +314,4 @@ map <leader>q :bp<bar>sp<bar>bn<bar>bd<CR>.
 
 "" set shortcut for open Nerdtree
 map <C-n> :NERDTreeToggle<CR>
-
-"" Make Nerdtree show .files by default
-let NERDTreeShowHidden=1
 
