@@ -4,4 +4,5 @@ chef/
 private
 *~
 tmux_resurrect_*
-tmux/
+tmux
+tmux/resurrect/
