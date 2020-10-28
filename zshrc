@@ -5,6 +5,7 @@
 [ -f ~/.auth-agent ] && . ~/.auth-agent
 [ -f ~/devops-apps-local-run-env.sh ] && . ~/devops-apps-local-run-env.sh
 
+
 set -o vi
 
 export AWS_EC2_IP="18.191.108.8"
